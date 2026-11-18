@@ -1,9 +1,8 @@
-
 streamlit
 pandas
 numpy
 joblib
 scikit-learn
 sentence-transformers
-llama-cpp-python
+llama-cpp-python==0.3.37
 rank-bm25
