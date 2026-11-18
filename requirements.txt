@@ -1,10 +1,9 @@
+
 streamlit
 pandas
 numpy
+joblib
 scikit-learn
 sentence-transformers
-transformers
-torch
-pypdf
-rank-bm25
 llama-cpp-python
+rank-bm25
