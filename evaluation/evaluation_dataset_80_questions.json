@@ -1,0 +1,1206 @@
+[
+    {
+        "question_id":"Q001",
+        "category":"Factual",
+        "question":"What machine learning methods are used for brain tumour detection?",
+        "gold_answer":"Research on brain tumour detection uses traditional machine learning methods such as Support Vector Machines (SVM) and backpropagation neural networks, as well as deep learning approaches. Other studies use Inception architectures for feature extraction and softmax classifiers. Particle Swarm Optimization has also been used to optimize extracted feature vectors.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor",
+                "page":2
+            }
+        ]
+    },
+    {
+        "question_id":"Q002",
+        "category":"Factual",
+        "question":"What deep learning architectures are used for brain tumour classification and segmentation?",
+        "gold_answer":"Convolutional Neural Networks (CNNs) are used for brain tumour classification, while U-Net architectures are used for segmenting tumour regions in MRI images.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor",
+                "page":2
+            }
+        ]
+    },
+    {
+        "question_id":"Q003",
+        "category":"Factual",
+        "question":"What type of MRI images was used to collect the meningioma and glioma data in the study?",
+        "gold_answer":"The study used spin-echo-weighted MRI images to collect meningioma and glioma data from Nanfang Hospital and General Hospital, Tianjin Medical University, China.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q004",
+        "category":"Factual",
+        "question":"How many brain tumour categories were included in the multiclass MRI dataset, and what are their names?",
+        "gold_answer":"The dataset included six brain tumour categories: meningioma, schwannoma, neurofibromatosis, glioma, chondrosarcoma, and chordoma. It contained 200 patients per category, giving a total of 1,200 MRI images.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q005",
+        "category":"Factual",
+        "question":"What classification accuracy did the suggested CNN achieve on the two datasets used for brain tumour grading?",
+        "gold_answer":"The suggested CNN achieved 96.13% accuracy on the first dataset and 98.7% accuracy on the second dataset.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI",
+                "page":3
+            }
+        ]
+    },
+    {
+        "question_id":"Q006",
+        "category":"Factual",
+        "question":"How many MRI observations are included in the Figshare brain tumour dataset, and which three tumour types does it contain?",
+        "gold_answer":"The Figshare dataset contains 3,064 T1-weighted enhanced MRI observations covering three tumour types: gliomas, pituitary tumours and meningiomas.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"A review on brain tumor segmentation based on deep learning methods with federated learning techniques",
+                "page":19
+            }
+        ]
+    },
+    {
+        "question_id":"Q007",
+        "category":"Factual",
+        "question":"Which four MRI sequences were used to acquire images in the BraTS 2018 and 2019 datasets?",
+        "gold_answer":"The datasets used T1-weighted, T1-weighted with gadolinium contrast enhancement (T1ce), T2-weighted, and fluid-attenuated inversion recovery (FLAIR) MRI sequences.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"A review on brain tumor segmentation based on deep learning methods with federated learning techniques",
+                "page":20
+            }
+        ]
+    },
+    {
+        "question_id":"Q008",
+        "category":"Factual",
+        "question":"How many MRI scans were used in the study comparing AlexNet, MobileNetV2, and GoogleNet for brain tumour classification?",
+        "gold_answer":"The study used 4,517 MRI scans: 1,129 glioma images, 1,134 meningioma images, 1,138 pituitary tumour images, and 1,116 normal brain images.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics",
+                "page":1
+            }
+        ]
+    },
+    {
+        "question_id":"Q009",
+        "category":"Factual",
+        "question":"Which pretrained deep learning architectures were evaluated for brain tumour classification in the study Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach?",
+        "gold_answer":"The study evaluated DenseNet50, VGG19, InceptionV3, and Xception for brain tumour classification.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach",
+                "page":11
+            }
+        ]
+    },
+    {
+        "question_id":"Q010",
+        "category":"Factual",
+        "question":"What classification accuracy did the proposed XAI-based CNN achieve for brain tumour classification?",
+        "gold_answer":"The proposed XAI-based CNN achieved 99% classification accuracy.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable CNN for brain tumor detection and classification through XAI based key features identification",
+                "page":17
+            }
+        ]
+    },
+    {
+        "question_id":"Q011",
+        "category":"Factual",
+        "question":"Which explainable AI techniques were used with the proposed CNN model for brain tumour classification?",
+        "gold_answer":"The proposed CNN model used Grad-CAM, SHAP, and LIME to explain its classification predictions.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable CNN for brain tumor detection and classification through XAI based key features identification",
+                "page":17
+            }
+        ]
+    },
+    {
+        "question_id":"Q012",
+        "category":"Factual",
+        "question":"How many T1-weighted contrast-enhanced MRI images were included in the dataset used by the DGXAINet study?",
+        "gold_answer":"The dataset contained 3,064 T1-weighted contrast-enhanced MRI images from 233 patients.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet",
+                "page":5
+            }
+        ]
+    },
+    {
+        "question_id":"Q013",
+        "category":"Factual",
+        "question":"Which three MRI image orientations were included in the Figshare dataset used by the DGXAINet study?",
+        "gold_answer":"The three MRI image orientations were axial, coronal, and sagittal.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet",
+                "page":5
+            }
+        ]
+    },
+    {
+        "question_id":"Q014",
+        "category":"Factual",
+        "question":"Which layer of the pretrained DenseNet201 was used to extract deep features in the DGXAINet study?",
+        "gold_answer":"The global average pooling layer of the pretrained DenseNet201 was used to extract deep features.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet",
+                "page":9
+            }
+        ]
+    },
+    {
+        "question_id":"Q015",
+        "category":"Factual",
+        "question":"Which feature selection method was used in the DGXAINet study to automatically determine the optimum number of features?",
+        "gold_answer":"Iterative Neighbourhood Component Analysis (INCA) was used. It performs iterative feature selection with an error calculator to automatically determine the optimum number of features.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet",
+                "page":9
+            }
+        ]
+    },
+    {
+        "question_id":"Q016",
+        "category":"Factual",
+        "question":"Which feature selection approach was used to reduce the feature space in the multi-class brain tumour MRI classification study?",
+        "gold_answer":"The study used Correlation-Based Feature Selection (CFS) combined with Best First Search (BFS) to select relevant features and reduce the feature space.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches",
+                "page":10
+            }
+        ]
+    },
+    {
+        "question_id":"Q017",
+        "category":"Factual",
+        "question":"Which brain tumour type achieved the highest individual classification accuracy in the multi-class brain tumour MRI study, and what was its accuracy?",
+        "gold_answer":"Neurofibromatosis achieved the highest individual classification accuracy of 99.33%.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches",
+                "page":14
+            }
+        ]
+    },
+    {
+        "question_id":"Q018",
+        "category":"Factual",
+        "question":"How many MRI images were included in the dataset used by the hybrid MobileNetV2 and EfficientNetV2B0 brain tumour classification study, and which three sources provided the images?",
+        "gold_answer":"The dataset contained 7,023 MRI images collected from Figshare, SARTAJ, and BR35H.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable Hybrid Deep Learning Framework Integrating MobileNetV2, EfficientNetV2B0, and KNN for MRI-Based Brain Tumor Classification",
+                "page":1
+            }
+        ]
+    },
+    {
+        "question_id":"Q019",
+        "category":"Factual",
+        "question":"What dimensions were the MRI images resized to before being used as input to MobileNetV2 and EfficientNetV2B0?",
+        "gold_answer":"All MRI images were resized to 224 \u00d7 224 pixels.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable Hybrid Deep Learning Framework Integrating MobileNetV2, EfficientNetV2B0, and KNN for MRI-Based Brain Tumor Classification",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q020",
+        "category":"Factual",
+        "question":"Which image augmentation techniques were applied to improve the robustness of the brain tumour classification model?",
+        "gold_answer":"The techniques were random rotation, random scaling, horizontal flipping, random brightness and contrast adjustments, random translation, and random zoom.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable Hybrid Deep Learning Framework Integrating MobileNetV2, EfficientNetV2B0, and KNN for MRI-Based Brain Tumor Classification",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q021",
+        "category":"Conceptual",
+        "question":"Why did the researchers use Iterative Neighbourhood Component Analysis (INCA) instead of standard Neighbourhood Component Analysis (NCA) for feature selection?",
+        "gold_answer":"Standard NCA can learn feature weights and rank important features, but it cannot determine the optimum number of features automatically. The researchers used INCA because it performs iterative feature selection with an error calculator to automatically identify the optimum number of features, helping improve classification accuracy.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet",
+                "page":9
+            }
+        ]
+    },
+    {
+        "question_id":"Q022",
+        "category":"Conceptual",
+        "question":"Why did the researchers apply data augmentation to the brain MRI images during model training?",
+        "gold_answer":"The researchers applied data augmentation to introduce variability into the training images, improve the model's robustness to variations in orientation, scale, brightness, contrast and position, and enhance its generalization capability when classifying MRI images.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable Hybrid Deep Learning Framework Integrating MobileNetV2, EfficientNetV2B0, and KNN for MRI-Based Brain Tumor Classification",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q023",
+        "category":"Conceptual",
+        "question":"Why did the researchers use cross-validation when evaluating their brain tumour classification models?",
+        "gold_answer":"Researchers used cross-validation to evaluate model performance across multiple data splits rather than relying on a single split. This helps assess model consistency and robustness, reduce the risk of overfitting, and provide a more reliable estimate of how well the model generalizes to unseen data.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI",
+                "page":11
+            },
+            {
+                "title":"Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches",
+                "page":11
+            }
+        ]
+    },
+    {
+        "question_id":"Q024",
+        "category":"Conceptual",
+        "question":"Why did researchers use Explainable Artificial Intelligence (XAI) techniques in brain tumour classification models?",
+        "gold_answer":"Researchers used XAI techniques to make deep learning model predictions more understandable and transparent. These techniques highlight important regions of MRI images that influence the model's predictions, helping clinicians understand the model's decisions, verify whether it focuses on tumour regions, and improve trustworthiness.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach",
+                "page":24
+            },
+            {
+                "title":"3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI",
+                "page":11
+            },
+            {
+                "title":"Utilizing Customized CNN for Brain Tumor Prediction with Explainable AI",
+                "page":6
+            }
+        ]
+    },
+    {
+        "question_id":"Q025",
+        "category":"Conceptual",
+        "question":"Why did the researchers use class weighting when training their brain tumour classification models?",
+        "gold_answer":"Researchers used class weighting to address class imbalance in the dataset. By assigning higher weights to minority classes, the model pays more attention to underrepresented tumour classes during training, helping reduce biased learning.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics",
+                "page":6
+            }
+        ]
+    },
+    {
+        "question_id":"Q026",
+        "category":"Conceptual",
+        "question":"Why did the researchers reserve a separate test set for the final evaluation of their brain tumour classification model?",
+        "gold_answer":"Researchers reserved a separate test set to evaluate the final model on data that was not used during training or model selection. This provides an independent assessment of the model's performance on unseen data and helps assess its ability to generalize.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification",
+                "page":18
+            },
+            {
+                "title":"A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation",
+                "page":8
+            }
+        ]
+    },
+    {
+        "question_id":"Q027",
+        "category":"Conceptual",
+        "question":"Why did researchers use transfer learning for brain tumour classification?",
+        "gold_answer":"Researchers used transfer learning to take advantage of pretrained models that had already learned useful features from large image datasets. This helps improve feature extraction when medical imaging data is limited, reduces training time, mitigates overfitting, and improves computational efficiency and generalization.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach",
+                "page":11
+            },
+            {
+                "title":"Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning",
+                "page":2
+            }
+        ]
+    },
+    {
+        "question_id":"Q028",
+        "category":"Conceptual",
+        "question":"Why did researchers use dropout in their brain tumour classification models?",
+        "gold_answer":"Researchers used dropout to reduce overfitting and improve the model's ability to generalize to unseen data. During training, dropout randomly deactivates a fraction of neurons, encouraging the network to learn more robust features instead of relying too heavily on particular neurons.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach",
+                "page":11
+            },
+            {
+                "title":"Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey",
+                "page":14
+            }
+        ]
+    },
+    {
+        "question_id":"Q029",
+        "category":"Conceptual",
+        "question":"Why did researchers use L2 regularization in their brain tumour classification models?",
+        "gold_answer":"Researchers used L2 regularization to prevent the model from becoming too complex and reduce overfitting. It penalizes large model weights, helping the model learn more effectively and generalize better to unseen data.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach",
+                "page":11
+            }
+        ]
+    },
+    {
+        "question_id":"Q030",
+        "category":"Conceptual",
+        "question":"Why did researchers use early stopping when training their brain tumour classification models?",
+        "gold_answer":"Researchers used early stopping to prevent overfitting and improve the model's ability to generalize to unseen data. It monitors validation loss during training and stops the process when the loss no longer improves, rather than continuing unnecessary training.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI",
+                "page":7
+            },
+            {
+                "title":"Explainable artificial intelligence for brain tumor classification via fine-tuned transfer learning",
+                "page":20
+            }
+        ]
+    },
+    {
+        "question_id":"Q031",
+        "category":"Conceptual",
+        "question":"Why did researchers use a learning rate scheduler when training their brain tumour classification models?",
+        "gold_answer":"Researchers used a learning rate scheduler to improve training stability and help the model converge more effectively. It automatically reduces the learning rate when validation loss stops improving. This allows the optimizer to take smaller steps towards minimizing the loss function and can make the optimization process more efficient.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI",
+                "page":7
+            },
+            {
+                "title":"Automated Classification of Brain Tumors from Magnetic Resonance Imaging Using Deep Learning",
+                "page":8
+            }
+        ]
+    },
+    {
+        "question_id":"Q032",
+        "category":"Conceptual",
+        "question":"Why did researchers include batch normalization layers in their brain tumour classification models?",
+        "gold_answer":"Researchers included batch normalization layers as part of their CNN architectures to help optimize model performance and improve generalization during brain tumour classification.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI",
+                "page":4
+            },
+            {
+                "title":"Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q033",
+        "category":"Conceptual",
+        "question":"Why did researchers apply image normalization during brain MRI preprocessing?",
+        "gold_answer":"Researchers applied image normalization to standardize pixel intensity values across MRI images and reduce variations caused by different imaging conditions. This improves input consistency and supports more stable and reliable model training. In one study, the Min-Max method rescaled pixel intensities to a range of 0 to 1.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"An automated deep learning framework for brain tumor classification using MRI imagery",
+                "page":12
+            },
+            {
+                "title":"Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches",
+                "page":7
+            }
+        ]
+    },
+    {
+        "question_id":"Q034",
+        "category":"Conceptual",
+        "question":"Why did researchers use Contrast Limited Adaptive Histogram Equalization (CLAHE) during brain MRI preprocessing?",
+        "gold_answer":"Researchers used CLAHE to improve MRI image contrast and make tumour regions more visible. It enhances contrast in local image regions while limiting noise amplification in homogeneous areas. This helps highlight subtle tumour features and supports more accurate tumour detection and segmentation.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI",
+                "page":4
+            },
+            {
+                "title":"An automated deep learning framework for brain tumor classification using MRI imagery",
+                "page":6
+            }
+        ]
+    },
+    {
+        "question_id":"Q035",
+        "category":"Conceptual",
+        "question":"Why did researchers use image denoising before brain tumour classification?",
+        "gold_answer":"Researchers used image denoising to suppress unwanted noise and improve MRI image quality before classification. Noise and imaging variations can negatively affect feature extraction and reduce model robustness. Removing noise helps the model learn more reliable features, improves resistance to variations in MRI acquisition, and supports better classification performance.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"A denoising autoencoder\u2013enhanced ResNet 50 framework for explainable brain tumor classification using MRI",
+                "page":3
+            },
+            {
+                "title":"A denoising autoencoder\u2013enhanced ResNet 50 framework for explainable brain tumor classification using MRI",
+                "page":2
+            },
+            {
+                "title":"A denoising autoencoder\u2013enhanced ResNet 50 framework for explainable brain tumor classification using MRI",
+                "page":18
+            }
+        ]
+    },
+    {
+        "question_id":"Q036",
+        "category":"Conceptual",
+        "question":"Why is accurate tumour boundary detection important in brain MRI segmentation?",
+        "gold_answer":"Accurate tumour boundary detection is important because brain tumours can have blurred edges and irregular shapes, making it difficult to identify their exact boundaries. Proper segmentation helps identify the tumour region more precisely and supports the assessment of tumour growth and response to treatment.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Automatic brain MRI tumors segmentation based on deep fusion of weak edge and context features",
+                "page":3
+            },
+            {
+                "title":"Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach",
+                "page":27
+            }
+        ]
+    },
+    {
+        "question_id":"Q037",
+        "category":"Conceptual",
+        "question":"Why did researchers use patient-level data splitting when evaluating brain tumour classification models?",
+        "gold_answer":"Researchers used patient-level data splitting to prevent MRI images from the same patient from appearing in both training and testing sets. This reduces data leakage and prevents the model from learning patient-specific features. It provides a more realistic evaluation of how well the model generalizes to previously unseen patients.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches",
+                "page":7
+            },
+            {
+                "title":"An explainable hybrid CNN\u2013vision transformer framework for brain tumor detection and classification using MRI",
+                "page":13
+            }
+        ]
+    },
+    {
+        "question_id":"Q038",
+        "category":"Conceptual",
+        "question":"How do rotation and brightness adjustment during data augmentation help brain tumour classification models handle variations in MRI images?",
+        "gold_answer":"Rotation introduces variations in image orientation, helping the model recognize tumours even when MRI images are differently aligned. Brightness adjustment simulates differences in image intensity caused by imaging equipment or protocols. These transformations help the model adapt to variations in MRI images and improve its ability to generalize to different imaging conditions.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach",
+                "page":5
+            }
+        ]
+    },
+    {
+        "question_id":"Q039",
+        "category":"Conceptual",
+        "question":"Why did researchers use skull stripping during brain MRI preprocessing?",
+        "gold_answer":"Researchers used skull stripping to remove the skull portion and other non-brain structures from MRI images. This helps isolate the brain region for analysis, allowing image segmentation and classification methods to focus on relevant brain tissues and tumour regions.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI",
+                "page":25
+            },
+            {
+                "title":"Brain tumor detection and classification using machine learning: a comprehensive survey",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q040",
+        "category":"Conceptual",
+        "question":"Why did researchers perform tumour segmentation before brain MRI classification?",
+        "gold_answer":"Researchers performed tumour segmentation to isolate the tumour regions from the surrounding MRI image. This allows the classification model to focus on relevant tumour features instead of processing the entire image. As a result, it can reduce computational time and cost while supporting more focused classification.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor",
+                "page":11
+            },
+            {
+                "title":"Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches",
+                "page":1
+            }
+        ]
+    },
+    {
+        "question_id":"Q041",
+        "category":"Multi-paper Comparison",
+        "question":"How do traditional machine learning and deep learning approaches differ in extracting features for brain tumour classification?",
+        "gold_answer":"Traditional machine learning approaches generally rely on manually designed features extracted from MRI images, such as texture, shape, intensity, wavelet, and GLCM features. These features are then provided to classifiers such as Support Vector Machines (SVM), Random Forest, and k-Nearest Neighbors (k-NN). In contrast, deep learning approaches, particularly Convolutional Neural Networks (CNNs), automatically learn hierarchical features directly from MRI images without requiring manual feature extraction. This makes CNNs particularly useful for learning complex patterns in high-dimensional medical images. However, the effectiveness of either approach depends on the dataset and model design.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"An automated deep learning framework for brain tumor classification using MRI imagery",
+                "page":4
+            },
+            {
+                "title":"3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI",
+                "page":2
+            },
+            {
+                "title":"A denoising autoencoder\u2013enhanced ResNet 50 framework for explainable brain tumor classification using MRI",
+                "page":3
+            },
+            {
+                "title":"Refining neural network algorithms for accurate brain tumor classification in MRI imagery",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q042",
+        "category":"Multi-paper Comparison",
+        "question":"What classification accuracy did three different research studies report for their proposed brain tumour classification models?",
+        "gold_answer":"Three research studies reported the following classification results:\n1. Deep learning-driven brain tumor classification and segmentation using non-contrast MRI reported 98.3% classification accuracy.\n2. Empowering Brain Tumor Diagnosis through Explainable Deep Learning reported 98.7% accuracy for its proposed Modified ResNet-50 model.\n3. Utilizing Customized CNN for Brain Tumor Prediction with Explainable AI reported 100% training accuracy and 98.67% validation accuracy.\nThese results demonstrate that deep learning models can achieve high classification performance. However, the percentages should be interpreted cautiously because the studies may use different datasets, class distributions, and evaluation settings.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Deep learning-driven brain tumor classification and segmentation using non-contrast MRI",
+                "page":20
+            },
+            {
+                "title":"Empowering Brain Tumor Diagnosis through Explainable Deep Learning",
+                "page":29
+            },
+            {
+                "title":"Utilizing Customized CNN for Brain Tumor Prediction with Explainable AI",
+                "page":9
+            }
+        ]
+    },
+    {
+        "question_id":"Q043",
+        "category":"Multi-paper Comparison",
+        "question":"What classification accuracies did the researchers report for Vision Transformer and DenseNet-based approaches evaluated on the Figshare brain tumour MRI dataset?",
+        "gold_answer":"Two studies reported the following results:\n1. The ViT study evaluated four pretrained Vision Transformer models using 3,064 labelled MRI images from the Figshare dataset. Its best individual model, ViT-L\/32, achieved 98.2% test accuracy, while the ensemble of all four ViT models achieved 98.7%.\n2. The DenseNet study evaluated DenseNet, ResNet, EfficientNet and MobileNet using the Figshare dataset. DenseNet achieved the highest test accuracy among these models at 96%, followed by MobileNet at 93%, ResNet at 91% and EfficientNet at 91%.\nAlthough the ViT ensemble reported higher accuracy, these results come from separate studies and experimental setups, so they do not establish a definitive head-to-head winner.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable CNN for brain tumor detection and classification through XAI based key features identification",
+                "page":5
+            },
+            {
+                "title":"Explainable AI in medical imaging: an interpretable and collaborative federated learning model for brain tumor classification",
+                "page":14
+            }
+        ]
+    },
+    {
+        "question_id":"Q044",
+        "category":"Multi-paper Comparison",
+        "question":"What Dice scores did two research studies report for their brain tumour segmentation models?",
+        "gold_answer":"Two studies reported the following segmentation results:\n1. Deep learning-driven brain tumor classification and segmentation using non-contrast MRI reported a Dice coefficient of 0.839 for the Whole Tumour (WT) region using a Fully Convolutional Network (FCN).\n2. A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation reported a Dice score of 0.7835 for its U-Net segmentation model. Its improved U-Net++ model achieved a slightly higher Dice score of 0.7846.\nThe first study reported a higher Dice score than the second. However, the studies used different datasets and experimental settings, so this difference does not establish that one model is generally better.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Deep learning-driven brain tumor classification and segmentation using non-contrast MRI",
+                "page":15
+            },
+            {
+                "title":"A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation",
+                "page":28
+            }
+        ]
+    },
+    {
+        "question_id":"Q045",
+        "category":"Multi-paper Comparison",
+        "question":"How did two research studies prevent data leakage when evaluating the generalization of their brain tumour classification models?",
+        "gold_answer":"The DAE\u2013ResNet50 study used five-fold stratified cross-validation, training the model on four folds and testing it on the remaining unseen fold. It also trained the denoising autoencoder separately within each fold to prevent information leakage. The second study used patient-level data splitting, ensuring that MRI images from the same patient did not appear in both training and testing sets. Both approaches help provide a more reliable assessment of model generalization.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"A denoising autoencoder\u2013enhanced ResNet 50 framework for explainable brain tumor classification using MRI",
+                "page":11
+            },
+            {
+                "title":"Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches",
+                "page":7
+            }
+        ]
+    },
+    {
+        "question_id":"Q046",
+        "category":"Multi-paper Comparison",
+        "question":"Which explainable AI techniques were used in the customized CNN study and the 3D MRI reconstruction study for brain tumour classification?",
+        "gold_answer":"The customized CNN study used three explainable AI techniques: SHAP, LIME, and Grad-CAM. In comparison, the 3D MRI reconstruction study used Grad-CAM and LIME to explain its model predictions. Therefore, both studies used Grad-CAM and LIME, while SHAP was additionally used in the customized CNN study.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Utilizing Customized CNN for Brain Tumor Prediction with Explainable AI",
+                "page":1
+            },
+            {
+                "title":"3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI",
+                "page":2
+            }
+        ]
+    },
+    {
+        "question_id":"Q047",
+        "category":"Multi-paper Comparison",
+        "question":"How did the dataset sizes and sources differ between the studies reported in Empowering Brain Tumor Diagnosis through Explainable Deep Learning and Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches?",
+        "gold_answer":"The study Empowering Brain Tumor Diagnosis through Explainable Deep Learning used 7,023 MRI images from a combined Kaggle dataset integrating Figshare, SARTAJ, and Br35H. In comparison, the Multi-class brain tumor MRI segmentation and classification study used 1,200 MRI images from hospital repositories and Radiopaedia, covering six tumour types. Therefore, the first study used a substantially larger dataset, while the second included a wider range of six tumour categories.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Empowering Brain Tumor Diagnosis through Explainable Deep Learning",
+                "page":5
+            },
+            {
+                "title":"Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q048",
+        "category":"Multi-paper Comparison",
+        "question":"Which deep learning architectures were evaluated in the DAE-ResNet50 study and the Multi-Stage Deep Learning Framework study for brain tumour MRI classification?",
+        "gold_answer":"The DAE-ResNet50 study evaluated a denoising autoencoder combined with ResNet50 and compared it with DenseNet201, EfficientNet-B0, MobileNetV2, ViT-Tiny-16 and a U-Net-style classifier. The Multi-Stage Deep Learning Framework study evaluated four networks: a basic CNN, ResNet50, Xception and EfficientNet-B3. Both studies included ResNet50, but they evaluated different additional architectures.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"A denoising autoencoder\u2013enhanced ResNet 50 framework for explainable brain tumor classification using MRI",
+                "page":14
+            },
+            {
+                "title":"A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation",
+                "page":17
+            }
+        ]
+    },
+    {
+        "question_id":"Q049",
+        "category":"Multi-paper Comparison",
+        "question":"How did two research studies compare the strengths of Grad-CAM and LIME when explaining brain tumour MRI classification predictions?",
+        "gold_answer":"The DAE-ResNet50 study found that Grad-CAM achieved the highest Focus Ratio of 0.678 and produced more spatially coherent explanations than LIME and SHAP. However, LIME achieved a slightly higher deletion score drop. In comparison, the Explainable AI-driven MRI classification study described Grad-CAM as more suitable for global interpretation because it highlights broader important regions, while LIME provides local, superpixel-based explanations that help identify specific features influencing individual predictions. Together, these findings suggest that Grad-CAM is useful for understanding broader model attention, whereas LIME provides more detailed explanations for individual predictions.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"A denoising autoencoder\u2013enhanced ResNet 50 framework for explainable brain tumor classification using MRI",
+                "page":16
+            },
+            {
+                "title":"Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach",
+                "page":24
+            },
+            {
+                "title":"Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach",
+                "page":25
+            }
+        ]
+    },
+    {
+        "question_id":"Q050",
+        "category":"Multi-paper Comparison",
+        "question":"How did the BT-Net study and the Robust CNN and U-Net study differ in their architectural approaches to brain tumour classification and segmentation?",
+        "gold_answer":"The BT-Net study proposed an integrated multi-task architecture that performs tumour classification, segmentation, and localization within a single framework using different task branches. In contrast, the Robust CNN and U-Net study used a CNN-based model for tumour classification and a U-Net-based model for segmentation. It also investigated how applying segmentation affects classification performance. Therefore, BT-Net combines multiple tasks within one architecture, while the other study uses separate classification and segmentation models.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"BT-Net: An end-to-end multi-task architecture for brain tumor classification, segmentation, and localization from MRI images",
+                "page":2
+            },
+            {
+                "title":"Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor",
+                "page":1
+            },
+            {
+                "title":"Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor",
+                "page":2
+            }
+        ]
+    },
+    {
+        "question_id":"Q051",
+        "category":"Multi-paper Comparison",
+        "question":"How did the classification accuracy differ when brain tumour MRI images were classified with and without segmentation in the Robust CNN and U-Net study?",
+        "gold_answer":"The Robust CNN and U-Net study reported 98.7% classification accuracy without segmentation and 98.8% with segmentation. Therefore, segmentation improved accuracy by only 0.1 percentage points. However, the segmentation approach required more training time because it involved training both a U-Net segmentation model and a classification model. The results suggest that segmentation provided a small accuracy improvement at a higher computational cost.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor",
+                "page":17
+            },
+            {
+                "title":"Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor",
+                "page":20
+            }
+        ]
+    },
+    {
+        "question_id":"Q052",
+        "category":"Multi-paper Comparison",
+        "question":"How do U-Net and Swin-UNETR differ in their architectural approaches to brain tumour MRI segmentation?",
+        "gold_answer":"U-Net uses a convolutional encoder-decoder architecture with skip connections to preserve spatial information and support accurate tumour localization. Swin-UNETR replaces the U-Net encoder with a Swin Transformer that uses shifted-window self-attention to capture long-range spatial relationships. Swin-UNETR reported Dice scores of 91.95% for whole tumour, 82.80% for tumour core, and 81.70% for enhancing tumour on BraTS 2020. However, it requires substantial computational resources and training time. These results illustrate the different architectural approaches, rather than proving that one model is generally better than the other.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation",
+                "page":5
+            }
+        ]
+    },
+    {
+        "question_id":"Q053",
+        "category":"Multi-paper Comparison",
+        "question":"How did the reviewed studies differ in their use of 2D and 3D approaches for brain tumour MRI analysis?",
+        "gold_answer":"The studies describe different approaches to analysing brain MRI data. One reviewed approach used approximately 5,000 2D MRI slices and 484 3D volumes, reporting 98.09% classification accuracy for its 2D approach and Dice scores of 68\u201370% for its 3D segmentation approach. Another study discussed a 3D CNN-based segmentation approach combining U-Net and GLCM feature extraction, which reported a mean accuracy of 99.40%, precision of 99.41%, and F-score of 99.40%. These results illustrate different uses of 2D and 3D approaches, but they should not be treated as a direct performance comparison because the studies used different methods and evaluation settings.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation",
+                "page":6
+            },
+            {
+                "title":"A brain tumor segmentation enhancement in MRI images using U-Net and transfer learning",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q054",
+        "category":"Multi-paper Comparison",
+        "question":"What advantages did researchers report when combining multiple MRI sequences compared with using individual MRI sequences for brain tumour diagnosis?",
+        "gold_answer":"Individual MRI sequences provide different types of information. T1CE images help identify tumour boundaries and blood-brain barrier changes, T2 images highlight tumour-related oedema, and FLAIR images improve lesion detection near fluid-rich regions. Combining these complementary sequences provides a more comprehensive assessment and can improve diagnostic accuracy and segmentation reliability. One study found that its T1CE-based radiomics model performed better than its individual T1WI- and T2WI-based models, while its multimodal radiomics model achieved an AUC of 0.94.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Exploring the value of peritumoral brain zone for classification of two malignant brain tumors based on the MRI interpretable models",
+                "page":11
+            },
+            {
+                "title":"From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection",
+                "page":16
+            },
+            {
+                "title":"Automated Radiological Reporting for Brain Tumor Using Deep Learning and LLMs",
+                "page":3
+            }
+        ]
+    },
+    {
+        "question_id":"Q055",
+        "category":"Multi-paper Comparison",
+        "question":"How did researchers address the problem of missing MRI modalities in brain tumour analysis, and why is this important in clinical settings?",
+        "gold_answer":"Researchers addressed missing MRI modalities by using methods that allow models to work even when some MRI sequences are unavailable. The CMDA-Net study introduced ModalityDropout during training, randomly dropping individual MRI modalities with a 15% probability while ensuring that at least one modality remained available. This encouraged the model to handle incomplete inputs and remain robust when modalities were missing during clinical use. Another study discussed hetero-modal segmentation methods that allow models to function with missing or incomplete MRI sequences. This is important because real clinical settings may not always provide every MRI sequence for every patient.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"CMDA-Net: Auditable SHAP-based brain-tumor MRI classification, with a cross-modal dynamic-attention design for modality-robust segmentation",
+                "page":8
+            },
+            {
+                "title":"Automated Radiological Reporting for Brain Tumor Using Deep Learning and LLMs",
+                "page":3
+            }
+        ]
+    },
+    {
+        "question_id":"Q056",
+        "category":"Multi-paper Comparison",
+        "question":"How do traditional machine learning approaches and deep learning approaches differ in brain tumour detection and classification?",
+        "gold_answer":"Traditional machine learning approaches generally depend on manually extracted and selected features, such as texture, shape and intensity, before applying classifiers such as Support Vector Machines (SVM), Random Forest, K-Nearest Neighbours and Decision Trees. In contrast, deep learning approaches, particularly Convolutional Neural Networks (CNNs), automatically learn hierarchical features directly from MRI images, reducing the need for manual feature extraction. Traditional approaches can be faster, but manual feature engineering can be time-consuming and susceptible to human error. One study reported better classification accuracy using deep learning than conventional machine learning approaches.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection",
+                "page":8
+            },
+            {
+                "title":"Brain Tumor Classification in MRI Images Using Combined Transfer Learning and Convolutional Neural Networks",
+                "page":3
+            },
+            {
+                "title":"VGG-SCNet: A VGG Net-Based Deep Learning Framework for Brain Tumor Detection on MRI Images",
+                "page":2
+            },
+            {
+                "title":"A Survey of Brain Tumor Segmentation and Classification Algorithms",
+                "page":14
+            }
+        ]
+    },
+    {
+        "question_id":"Q057",
+        "category":"Multi-paper Comparison",
+        "question":"What preprocessing techniques did different research studies apply to MRI images before brain tumour classification, and what purposes did these techniques serve?",
+        "gold_answer":"Different studies applied various preprocessing techniques to improve MRI image quality and prepare images for classification. These included image cropping, noise removal, colormap application and resizing to refine images and standardise model inputs. Another study used data augmentation, resizing and Contrast Limited Adaptive Histogram Equalization (CLAHE) to improve image clarity and focus on tumour regions. Other techniques included grayscale conversion, adaptive contrast enhancement and skull stripping. These techniques helped increase dataset diversity, improve the signal-to-noise ratio, remove unnecessary noise and non-brain tissues, and make the images more suitable for model training and classification. However, preprocessing requirements varied between studies, with one automated CNN approach requiring little preprocessing.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Empowering Brain Tumor Diagnosis through Explainable Deep Learning",
+                "page":7
+            },
+            {
+                "title":"3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI",
+                "page":3
+            },
+            {
+                "title":"Brain Tumor Identification and Classification of MRI Images Using Deep Learning Techniques",
+                "page":4
+            },
+            {
+                "title":"Brain tumor classification using MRI images and deep learning techniques",
+                "page":11
+            },
+            {
+                "title":"Classification of Brain Tumor Images Using CNN",
+                "page":2
+            }
+        ]
+    },
+    {
+        "question_id":"Q058",
+        "category":"Multi-paper Comparison",
+        "question":"How did different research studies address class imbalance in brain tumour MRI datasets, and what techniques did they use?",
+        "gold_answer":"Different research studies used several approaches to address class imbalance in brain tumour MRI datasets. One study applied class balancing together with data augmentation to provide more diverse training examples. Another study discussed cost-sensitive techniques to handle imbalanced datasets. Other researchers used resampling and data augmentation to address class imbalance and improve model training. Data augmentation was also used in another study to increase the number of training images. Additionally, one study used nearly equal numbers of normal and abnormal MRI images to reduce class imbalance. These approaches aim to reduce bias towards majority classes and improve the reliability of classification.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics",
+                "page":4
+            },
+            {
+                "title":"Transfer Learning and Explainable AI for Brain Tumor Classification: A Study Using MRI Data from Bangladesh",
+                "page":3
+            },
+            {
+                "title":"Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI",
+                "page":25
+            },
+            {
+                "title":"Brain Tumor Classification Using a Combination of Variational Autoencoders and Generative Adversarial Networks",
+                "page":5
+            },
+            {
+                "title":"Accurate Brain Tumor Detection Using Deep Convolutional Neural Network",
+                "page":11
+            }
+        ]
+    },
+    {
+        "question_id":"Q059",
+        "category":"Multi-paper Comparison",
+        "question":"How did different research studies evaluate the generalisation ability and reliability of their brain tumour classification models?",
+        "gold_answer":"Different research studies evaluated the generalisation and reliability of brain tumour classification models using several approaches. One study tested its model on an unseen dataset and achieved 94.72% accuracy, while also examining learning curves and validation performance. Another study used two different datasets and five-fold cross-validation to assess its transfer learning models. Researchers in another study validated their model using six publicly available datasets. A separate study used a 70% training and 30% testing split to evaluate different deep learning models. Studies also assessed reliability using multiple performance metrics, including accuracy, precision, recall, F1-score, specificity, misclassification rate, and ROC values. These approaches help assess whether models perform consistently beyond their training data. However, differences in datasets and experimental conditions can make direct comparisons between studies difficult.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable CNN for brain tumor detection and classification through XAI based key features identification",
+                "page":14
+            },
+            {
+                "title":"Brain tumor classification using fine-tuned transfer learning models on magnetic resonance imaging (MRI) images",
+                "page":2
+            },
+            {
+                "title":"Efficient brain tumor grade classification using ensemble deep learning models",
+                "page":20
+            },
+            {
+                "title":"Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI",
+                "page":14
+            },
+            {
+                "title":"Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics",
+                "page":4
+            }
+        ]
+    },
+    {
+        "question_id":"Q060",
+        "category":"Multi-paper Comparison",
+        "question":"How did different research studies use Explainable AI techniques to interpret brain tumour classification models and support clinical decision-making?",
+        "gold_answer":"Different research studies used Explainable AI (XAI) techniques to make brain tumour classification models more transparent and understandable. Several studies used Grad-CAM to highlight important regions of MRI images that influenced model predictions. LIME was used to provide local explanations of individual predictions, while SHAP helped identify features that positively or negatively influenced the model's decisions. Another study combined Grad-CAM with saliency maps to show important image regions and pixel-level contributions. These visual explanations help clinicians understand which tumour regions or features influenced predictions, verify the model's focus, and develop greater confidence in AI-assisted diagnosis. Overall, XAI supports transparency, interpretability, and more informed clinical decision-making.",
+        "answerable":true,
+        "supporting_sources":[
+            {
+                "title":"Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey",
+                "page":31
+            },
+            {
+                "title":"Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI",
+                "page":1
+            },
+            {
+                "title":"3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI",
+                "page":2
+            },
+            {
+                "title":"Boosting brain tumor detection with an optimized ResNet and explainability via Grad-CAM and LIME",
+                "page":17
+            },
+            {
+                "title":"Explainable AI in medical imaging: an interpretable and collaborative federated learning model for brain tumor classification",
+                "page":3
+            }
+        ]
+    },
+    {
+        "question_id":"Q061",
+        "category":"Unanswerable",
+        "question":"What was the five-year survival rate of brain tumor patients in Bhutan, according to the research studies in this collection?",
+        "gold_answer":"The research collection does not provide a five-year survival rate specifically for brain tumor patients in Bhutan. Although some studies report general or population-specific survival statistics, Bhutan-specific data are not available in the retrieved evidence.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q062",
+        "category":"Unanswerable",
+        "question":"How many patients were diagnosed with brain tumors in Bhutan in 2025, according to the research studies in this collection?",
+        "gold_answer":"The research collection does not provide the number of brain tumor patients diagnosed in Bhutan in 2025. Although it contains global and country-specific statistics, Bhutan-specific figures for 2025 are not available in the retrieved evidence.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q063",
+        "category":"Unanswerable",
+        "question":"Which hospital in Bhutan provided the MRI scans used to develop the brain tumour classification models discussed in this collection?",
+        "gold_answer":"The research collection does not identify a hospital in Bhutan that provided MRI scans for the brain tumour classification models discussed.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q064",
+        "category":"Unanswerable",
+        "question":"What was the total financial cost of developing and training all the brain tumour classification models discussed in this collection?",
+        "gold_answer":"The research collection does not report the total financial cost of developing and training all the brain tumour classification models discussed.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q065",
+        "category":"Unanswerable",
+        "question":"Which medical expert or neurologist supervised the development and validation of all the brain tumour classification models discussed in this collection?",
+        "gold_answer":"The collection does not identify a single medical expert or neurologist who supervised the development and validation of all the brain tumour classification models. Although individual studies mention medical experts or expert annotations, no common supervisor is identified.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q066",
+        "category":"Unanswerable",
+        "question":"What was the average age of brain tumour patients across all the studies included in this collection?",
+        "gold_answer":"The collection does not report a combined average age of brain tumour patients across all included studies. Individual studies report different average ages for their respective patient populations.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q067",
+        "category":"Unanswerable",
+        "question":"Can a single brain tumour classification model be identified as having the highest comparable accuracy across all studies in the collection?",
+        "gold_answer":"No. The studies report different accuracy results using different datasets and evaluation protocols. Although some studies report very high accuracy values, the collection does not establish a single model as having the highest comparable accuracy across all studies.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q068",
+        "category":"Unanswerable",
+        "question":"What was the exact number of brain tumour patients included in all the research studies in this collection?",
+        "gold_answer":"The exact combined number of brain tumour patients across all studies cannot be determined from the collection. Individual studies report different patient counts and use different datasets. Some studies may use shared public datasets, and the collection does not provide a verified combined patient count.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q069",
+        "category":"Unanswerable",
+        "question":"Which brain tumour classification model was officially approved for clinical use by the World Health Organization or another international medical authority, according to the studies in this collection?",
+        "gold_answer":"The collection does not identify any brain tumour classification model as officially approved for clinical use by the World Health Organization or another international medical authority. Although some studies discuss WHO tumour classification guidelines and AI models, they do not report official approval of an AI model.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q070",
+        "category":"Unanswerable",
+        "question":"Which specific brain tumour classification model was used in the study that the review identified as having prospectively evaluated 50 consecutive cases?",
+        "gold_answer":"The review reports that one study prospectively evaluated 50 consecutive cases, but it does not identify the specific brain tumour classification model used in that study.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q071",
+        "category":"Unanswerable",
+        "question":"How many patients in the studies experienced a change in their treatment decisions because of an AI-based brain tumour classification model?",
+        "gold_answer":"The research collection does not provide a verified number of patients whose treatment decisions changed because of an AI-based brain tumour classification model. Some studies discuss AI-assisted clinical decision-making, but they do not report this specific patient count.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q072",
+        "category":"Unanswerable",
+        "question":"How many brain tumour patients experienced improved long-term survival as a result of treatment guided by an AI-based classification model, according to the studies in this collection?",
+        "gold_answer":"The research collection does not report a verified number of patients whose long-term survival improved as a direct result of treatment guided by an AI-based brain tumour classification model. Some studies predict survival outcomes, but they do not demonstrate improved actual survival caused by AI-guided treatment.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q073",
+        "category":"Unanswerable",
+        "question":"How many brain tumour patients avoided unnecessary surgery because of decisions made using an AI-based brain tumour classification model?",
+        "gold_answer":"The collection discusses the potential for AI-based models to support diagnosis and reduce invasive procedures, but it does not report how many patients actually avoided unnecessary surgery because of AI-based decisions.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q074",
+        "category":"Unanswerable",
+        "question":"How many brain tumour patients received a different diagnosis after an AI-based brain tumour classification model corrected the initial diagnosis made by a doctor?",
+        "gold_answer":"The collection does not report the number of brain tumour patients whose initial diagnosis was corrected by an AI-based brain tumour classification model. Although a 2026 study reported 128 AI-altered diagnostic impressions among 500 brain MRI cases, including 104 correctly altered and 24 wrongly altered cases, these results concern an AI-assisted large language model across multiple brain disorders and do not provide the specific number requested.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q075",
+        "category":"Unanswerable",
+        "question":"How many brain tumour patients were successfully treated using a treatment plan recommended by an AI-based brain tumour classification system?",
+        "gold_answer":"The collection does not report the number of brain tumour patients successfully treated using treatment plans recommended by an AI-based brain tumour classification system. Although some studies discuss AI-assisted treatment planning and personalized therapy, they do not provide the specific patient outcome count requested.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q076",
+        "category":"Unanswerable",
+        "question":"How many brain tumour patients experienced an improvement in quality of life as a direct result of using an AI-based brain tumour diagnosis or classification system?",
+        "gold_answer":"The collection does not report the number of brain tumour patients who experienced a direct improvement in quality of life as a result of using an AI-based diagnosis or classification system. Although several studies discuss potential improvements in clinical decision-making, diagnosis, and patient outcomes, they do not provide the specific patient count requested.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q077",
+        "category":"Unanswerable",
+        "question":"How many brain tumour patients avoided permanent neurological disability because of an AI-based brain tumour diagnosis or classification system?",
+        "gold_answer":"The collection does not report the number of brain tumour patients who avoided permanent neurological disability because of an AI-based diagnosis or classification system. Although some studies discuss the potential of early AI-based detection to reduce disability and complications, they do not provide a specific patient count or demonstrate this outcome.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q078",
+        "category":"Unanswerable",
+        "question":"How many brain tumour patients experienced fewer complications during treatment because of recommendations made by an AI-based brain tumour classification system?",
+        "gold_answer":"The collection does not report the number of brain tumour patients who experienced fewer treatment complications because of recommendations from an AI-based brain tumour classification system. Although some studies discuss the potential of AI to support clinical decision-making and treatment planning, they do not provide a specific patient count or demonstrate this outcome.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q079",
+        "category":"Unanswerable",
+        "question":"How many brain tumour patients had their treatment costs reduced as a result of using an AI-based brain tumour diagnosis or classification system?",
+        "gold_answer":"The collection does not report the number of brain tumour patients whose treatment costs were reduced as a direct result of using an AI-based diagnosis or classification system. Although some studies discuss the potential for AI to improve diagnostic efficiency and clinical workflows, they do not provide a specific patient count or measured treatment-cost reduction.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    },
+    {
+        "question_id":"Q080",
+        "category":"Unanswerable",
+        "question":"What percentage of brain tumour patients reported greater satisfaction with their medical care after using an AI-based brain tumour diagnosis or classification system?",
+        "gold_answer":"The collection does not report the percentage of brain tumour patients who experienced greater satisfaction with their medical care after using an AI-based diagnosis or classification system. Although some studies discuss potential improvements in diagnostic accuracy, clinical efficiency and patient care, they do not provide a measured patient satisfaction percentage.",
+        "answerable":false,
+        "supporting_sources":[
+
+        ]
+    }
+]

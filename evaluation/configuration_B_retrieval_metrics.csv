@@ -1,0 +1,61 @@
+question_id,category,relevant_paper_count,relevant_papers_retrieved_top5,recall_at_5,first_relevant_rank,reciprocal_rank_at_10
+Q001,Factual,1,0,0.0,,0.0
+Q002,Factual,1,0,0.0,,0.0
+Q003,Factual,1,0,0.0,,0.0
+Q004,Factual,1,0,0.0,,0.0
+Q005,Factual,1,1,1.0,1.0,1.0
+Q006,Factual,1,0,0.0,,0.0
+Q007,Factual,1,1,1.0,1.0,1.0
+Q008,Factual,1,1,1.0,2.0,0.5
+Q009,Factual,1,1,1.0,1.0,1.0
+Q010,Factual,1,1,1.0,5.0,0.2
+Q011,Factual,1,0,0.0,,0.0
+Q012,Factual,1,0,0.0,,0.0
+Q013,Factual,1,1,1.0,2.0,0.5
+Q014,Factual,1,1,1.0,1.0,1.0
+Q015,Factual,1,1,1.0,1.0,1.0
+Q016,Factual,1,1,1.0,1.0,1.0
+Q017,Factual,1,0,0.0,,0.0
+Q018,Factual,1,1,1.0,1.0,1.0
+Q019,Factual,1,1,1.0,1.0,1.0
+Q020,Factual,1,1,1.0,4.0,0.25
+Q021,Conceptual,1,1,1.0,1.0,1.0
+Q022,Conceptual,1,0,0.0,,0.0
+Q023,Conceptual,2,0,0.0,,0.0
+Q024,Conceptual,4,0,0.0,,0.0
+Q025,Conceptual,1,0,0.0,,0.0
+Q026,Conceptual,2,1,0.5,4.0,0.25
+Q027,Conceptual,2,1,0.5,4.0,0.25
+Q028,Conceptual,2,1,0.5,1.0,1.0
+Q029,Conceptual,1,1,1.0,1.0,1.0
+Q030,Conceptual,2,0,0.0,,0.0
+Q031,Conceptual,2,0,0.0,,0.0
+Q032,Conceptual,2,1,0.5,1.0,1.0
+Q033,Conceptual,2,0,0.0,,0.0
+Q034,Conceptual,2,1,0.5,1.0,1.0
+Q035,Conceptual,1,1,1.0,1.0,1.0
+Q036,Conceptual,2,0,0.0,,0.0
+Q037,Conceptual,2,1,0.5,5.0,0.2
+Q038,Conceptual,1,1,1.0,1.0,1.0
+Q039,Conceptual,2,1,0.5,5.0,0.2
+Q040,Conceptual,2,0,0.0,,0.0
+Q041,Multi-paper Comparison,4,0,0.0,9.0,0.1111111111111111
+Q042,Multi-paper Comparison,4,0,0.0,,0.0
+Q043,Multi-paper Comparison,2,1,0.5,5.0,0.2
+Q044,Multi-paper Comparison,2,0,0.0,,0.0
+Q045,Multi-paper Comparison,2,0,0.0,,0.0
+Q046,Multi-paper Comparison,3,3,1.0,1.0,1.0
+Q047,Multi-paper Comparison,2,2,1.0,2.0,0.5
+Q048,Multi-paper Comparison,2,1,0.5,1.0,1.0
+Q049,Multi-paper Comparison,2,1,0.5,1.0,1.0
+Q050,Multi-paper Comparison,2,0,0.0,,0.0
+Q051,Multi-paper Comparison,1,1,1.0,2.0,0.5
+Q052,Multi-paper Comparison,1,1,1.0,1.0,1.0
+Q053,Multi-paper Comparison,2,1,0.5,4.0,0.25
+Q054,Multi-paper Comparison,3,0,0.0,6.0,0.16666666666666666
+Q055,Multi-paper Comparison,2,0,0.0,,0.0
+Q056,Multi-paper Comparison,4,2,0.5,2.0,0.5
+Q057,Multi-paper Comparison,5,0,0.0,,0.0
+Q058,Multi-paper Comparison,5,0,0.0,7.0,0.14285714285714285
+Q059,Multi-paper Comparison,5,3,0.6,1.0,1.0
+Q060,Multi-paper Comparison,5,3,0.6,2.0,0.5

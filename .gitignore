@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Mac
+.DS_Store
+
+# Secrets
+.streamlit/secrets.toml
+.env
+
+# Large language model
+models/*.gguf
+
+# Temporary files
+*.log

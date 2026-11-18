@@ -1,0 +1,801 @@
+question_id,category,rank,article_id,title,page_number,retrieval_score
+Q001,Factual,1,Article_113,Optimized Edge Detection Technique for Brain Tumor Detection in MR Images,15,20.368021404762764
+Q001,Factual,2,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,7,19.693522015785184
+Q001,Factual,3,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,2,19.065723177863607
+Q001,Factual,4,Article_24,Refining neural network algorithms for accurate brain tumor classification in MRI imagery,4,19.064092005547675
+Q001,Factual,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,18.542560978571633
+Q001,Factual,6,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,18.072537003686875
+Q001,Factual,7,Article_138,DDFC: deep learning approach for deep feature extraction and classification of brain tumors using magnetic resonance imaging in E-healthcare system,2,17.81922392386133
+Q001,Factual,8,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,17.623289095694368
+Q001,Factual,9,Article_64,A Review on a Deep Learning Perspective in Brain Cancer Classification,1,17.476894616750794
+Q001,Factual,10,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,9,17.276548511743457
+Q002,Factual,1,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,4,23.78844893896051
+Q002,Factual,2,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,4,23.57910692692439
+Q002,Factual,3,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,7,22.958070946574384
+Q002,Factual,4,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,22.91539962402002
+Q002,Factual,5,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,1,22.671895144752206
+Q002,Factual,6,Article_33,Explainable artificial intelligence with UNet based segmentation and Bayesian machine learning for classification of brain tumors using MRI images,3,22.52322646858613
+Q002,Factual,7,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,22.511022359123846
+Q002,Factual,8,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,22.08276051644747
+Q002,Factual,9,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,4,21.852439537301116
+Q002,Factual,10,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,4,21.77122792627652
+Q003,Factual,1,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,9,40.26758065800405
+Q003,Factual,2,Article_61,An Effective Approach to Detect and Identify Brain Tumors Using Transfer Learning,9,39.62380527260271
+Q003,Factual,3,Article_9,Automated Classification of Brain Tumors from Magnetic Resonance Imaging Using Deep Learning,12,37.04890032287433
+Q003,Factual,4,Article_80,Efficient brain tumor grade classification using ensemble deep learning models,1,36.86998523410599
+Q003,Factual,5,Article_93,A Deep Learning Approach for Brain Tumor Classification and Segmentation Using a Multiscale Convolutional Neural Network,12,36.76285244411281
+Q003,Factual,6,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,8,36.71258622632
+Q003,Factual,7,Article_109,Brain tumor classification using MRI images and deep learning techniques,4,36.707767505049546
+Q003,Factual,8,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,3,36.44951807343393
+Q003,Factual,9,Article_73,Accurate Brain Tumor Detection Using Deep Convolutional Neural Network,5,36.325609474793765
+Q003,Factual,10,Article_14,Bridging the Gap: Exploring Interpretability in Deep Learning Models for Brain Tumor Detection and Diagnosis from MRI Images,16,36.19671942459018
+Q004,Factual,1,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,7,30.175226160655072
+Q004,Factual,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,9,28.775664583395567
+Q004,Factual,3,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,2,28.508694256447843
+Q004,Factual,4,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,28.22115107350103
+Q004,Factual,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,8,27.74195114676402
+Q004,Factual,6,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,4,27.6957946637714
+Q004,Factual,7,Article_69,Brain Tumor Detection and Categorization with Segmentation of Improved Unsupervised Clustering Approach and Machine Learning Classifier,21,27.47055570073224
+Q004,Factual,8,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,3,27.45459394808831
+Q004,Factual,9,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,4,27.04652519038005
+Q004,Factual,10,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,27.016824826801425
+Q005,Factual,1,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,3,35.78897665829209
+Q005,Factual,2,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,3,35.64536589113103
+Q005,Factual,3,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,34.223260970108676
+Q005,Factual,4,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,33.0857421190028
+Q005,Factual,5,Article_81,Brain Tumor Classification Using a Combination of Variational Autoencoders and Generative Adversarial Networks,6,32.64533785229871
+Q005,Factual,6,Article_69,Brain Tumor Detection and Categorization with Segmentation of Improved Unsupervised Clustering Approach and Machine Learning Classifier,5,32.62079569285151
+Q005,Factual,7,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,9,32.4701354855229
+Q005,Factual,8,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,6,32.30529418953684
+Q005,Factual,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,31.40223982027009
+Q005,Factual,10,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,4,31.15092366984076
+Q006,Factual,1,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,43.61249106037617
+Q006,Factual,2,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,38.15723599200396
+Q006,Factual,3,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,22,34.22442783227761
+Q006,Factual,4,Article_113,Optimized Edge Detection Technique for Brain Tumor Detection in MR Images,14,33.76871878527534
+Q006,Factual,5,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,32.93031741069001
+Q006,Factual,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,8,32.125414087539966
+Q006,Factual,7,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,1,31.65808100832825
+Q006,Factual,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,31.564521353741444
+Q006,Factual,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,31.525570261336327
+Q006,Factual,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,31.506674671566024
+Q007,Factual,1,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,20,38.24710564753395
+Q007,Factual,2,Article_188,Combining the Transformer and Convolution for Effective Brain Tumor Classification Using MRI Images,11,37.302314534692705
+Q007,Factual,3,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,19,34.98767533018967
+Q007,Factual,4,Article_143,Explainability of deep neural networks for MRI analysis of brain tumors,5,34.29101045194106
+Q007,Factual,5,Article_142,An Explainable Brain Tumor Detection Framework for MRI Analysis,7,33.048994683859384
+Q007,Factual,6,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,17,31.815167317238153
+Q007,Factual,7,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,2,31.50401430156083
+Q007,Factual,8,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,3,31.447163260322373
+Q007,Factual,9,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,22,31.14686033265946
+Q007,Factual,10,Article_141,Explainable hybrid vision transformers and convolutional network for multimodal glioma segmentation in brain MRI,5,30.92601586889393
+Q008,Factual,1,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,4,38.85347152873746
+Q008,Factual,2,Article_75,Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics,4,37.93620060170778
+Q008,Factual,3,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,4,37.610744520946
+Q008,Factual,4,Article_75,Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics,1,37.5376097095769
+Q008,Factual,5,Article_62,A Robust End-to-End Deep Learning-Based Approach for Effective and Reliable Brain Tumor Detection Using MR Images,4,36.57571118319564
+Q008,Factual,6,Article_39,A deep transfer learning and ensemble learning framework for brain tumor detection and classification in MRI images,7,36.45831229971559
+Q008,Factual,7,Article_75,Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics,4,36.33931901540892
+Q008,Factual,8,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,4,34.88600686269711
+Q008,Factual,9,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,3,34.65705520912532
+Q008,Factual,10,Article_75,Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics,4,33.89255765246158
+Q009,Factual,1,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,1,57.78987914656393
+Q009,Factual,2,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,51.83210992117344
+Q009,Factual,3,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,1,49.532696605835774
+Q009,Factual,4,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,11,49.382527681268314
+Q009,Factual,5,Article_53,Employing Deep Learning and Transfer Learning for Accurate Brain Tumor Detection,3,48.541203443631794
+Q009,Factual,6,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,4,47.95596826462461
+Q009,Factual,7,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,47.89236625007183
+Q009,Factual,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,47.83267307061018
+Q009,Factual,9,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,1,47.6125050811098
+Q009,Factual,10,Article_91,Deep learning-driven brain tumor classification and segmentation using non-contrast MRI,1,46.31815716185886
+Q010,Factual,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,26.976341025694964
+Q010,Factual,2,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,25.96872953137341
+Q010,Factual,3,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,25.59584668441848
+Q010,Factual,4,Article_130,Post-hoc eXplainable AI methods for analyzing medical images of gliomas â€” A review for clinical applications,9,24.88936758758792
+Q010,Factual,5,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,16,24.296976463029562
+Q010,Factual,6,Article_11,Explainable AI in medical imaging: an interpretable and collaborative federated learning model for brain tumor classification,3,23.979433499698
+Q010,Factual,7,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,9,23.892512092208342
+Q010,Factual,8,Article_113,Optimized Edge Detection Technique for Brain Tumor Detection in MR Images,15,23.77050663364253
+Q010,Factual,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,23.755974392892814
+Q010,Factual,10,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,5,23.74907854396334
+Q011,Factual,1,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,30.939096090431622
+Q011,Factual,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,29.861502064961133
+Q011,Factual,3,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,29.047076506275914
+Q011,Factual,4,Article_33,Explainable artificial intelligence with UNet based segmentation and Bayesian machine learning for classification of brain tumors using MRI images,3,28.910286999670177
+Q011,Factual,5,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,1,28.25850473211208
+Q011,Factual,6,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,28.175998196928578
+Q011,Factual,7,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,37,27.34595675279931
+Q011,Factual,8,Article_152,Transparent brain tumor detection using DenseNet169 and LIME,3,27.3190757464749
+Q011,Factual,9,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,13,27.299119654047644
+Q011,Factual,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,27.16696974557353
+Q012,Factual,1,Article_19,Intra-axial primary brain tumor differentiation: comparing large language models on structured MRI reports vs. radiologists on images,3,35.956547946189964
+Q012,Factual,2,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,20,35.371273128398514
+Q012,Factual,3,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,19,35.118794901455644
+Q012,Factual,4,Article_21,Explainable ensemble deep learning-based model for brain tumor detection and classification,3,35.059022792091
+Q012,Factual,5,Article_8,Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study,8,34.226165505315315
+Q012,Factual,6,Article_111,Consensus recommendations for a standardized brain tumor imaging protocol for clinical trials in brain metastases,6,33.99347605149241
+Q012,Factual,7,Article_133,SYNAPSE-X: a calibration-aware vision transformer framework for selective referral in multi-class brain tumor MRI classification,23,33.83537982562857
+Q012,Factual,8,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,6,33.49280444744522
+Q012,Factual,9,Article_126,Augmentation of brain tumor interstitial flow via focused ultrasound promotes brain-penetrating nanoparticle dispersion and transfection,9,32.42324934709234
+Q012,Factual,10,Article_176,AI-Assisted Brain Tumor MRI Reporting and Treatment-Planning Segmentation: A Retrospective Paired Workflow Evaluation,5,32.37130652253736
+Q013,Factual,1,Article_70,Impact of Data-Augmentation on Brain Tumor Detection Using Different YOLO Versions Models,6,31.856614807511065
+Q013,Factual,2,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,1,31.72284765750666
+Q013,Factual,3,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,3,28.08641699212564
+Q013,Factual,4,Article_70,Impact of Data-Augmentation on Brain Tumor Detection Using Different YOLO Versions Models,6,27.711229184838878
+Q013,Factual,5,Article_21,Explainable ensemble deep learning-based model for brain tumor detection and classification,3,27.697029515383456
+Q013,Factual,6,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,27.26335125832461
+Q013,Factual,7,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,26,27.12039650852819
+Q013,Factual,8,Article_188,Combining the Transformer and Convolution for Effective Brain Tumor Classification Using MRI Images,11,26.713536158533437
+Q013,Factual,9,Article_58,A Hybrid Deep Learning-Based Approach for Brain Tumor Classification,5,26.39343634653806
+Q013,Factual,10,Article_71,Efficient and low complex architecture for detection and classification of Brain Tumor using RCNN with Two Channel CNN,6,26.184987657258706
+Q014,Factual,1,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,1,44.24107643421361
+Q014,Factual,2,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,9,40.32453888753444
+Q014,Factual,3,Article_61,An Effective Approach to Detect and Identify Brain Tumors Using Transfer Learning,13,36.42772167314669
+Q014,Factual,4,Article_130,Post-hoc eXplainable AI methods for analyzing medical images of gliomas â€” A review for clinical applications,4,35.6534505758573
+Q014,Factual,5,Article_58,A Hybrid Deep Learning-Based Approach for Brain Tumor Classification,7,35.2187718559968
+Q014,Factual,6,Article_109,Brain tumor classification using MRI images and deep learning techniques,9,34.68441312911251
+Q014,Factual,7,Article_109,Brain tumor classification using MRI images and deep learning techniques,16,34.44157315571436
+Q014,Factual,8,Article_62,A Robust End-to-End Deep Learning-Based Approach for Effective and Reliable Brain Tumor Detection Using MR Images,13,34.33405374218224
+Q014,Factual,9,Article_105,Improving Effectiveness of Different Deep Transfer Learning-Based Models for Detecting Brain Tumors From MR Images,6,34.14933164891738
+Q014,Factual,10,Article_63,Deep Transfer Learning Approaches in Performance Analysis of Brain Tumor Classification Using MRI Images,8,33.56523605001571
+Q015,Factual,1,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,9,48.33798872261281
+Q015,Factual,2,Article_125,Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN,5,37.42218389098968
+Q015,Factual,3,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,1,37.18485992963388
+Q015,Factual,4,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,10,37.15261084122209
+Q015,Factual,5,Article_58,A Hybrid Deep Learning-Based Approach for Brain Tumor Classification,10,36.862965029560556
+Q015,Factual,6,Article_31,Classification of brain tumor types through MRIs using parallel CNNs and firefly optimization,6,35.94381033022273
+Q015,Factual,7,Article_73,Accurate Brain Tumor Detection Using Deep Convolutional Neural Network,2,35.7631726440189
+Q015,Factual,8,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,5,35.27440515346641
+Q015,Factual,9,Article_113,Optimized Edge Detection Technique for Brain Tumor Detection in MR Images,2,34.64024118980752
+Q015,Factual,10,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,20,34.54603614752847
+Q016,Factual,1,Article_5,Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches,10,42.05735225936479
+Q016,Factual,2,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,2,39.184195567132505
+Q016,Factual,3,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,36.25670194501285
+Q016,Factual,4,Article_83,Brain Tumor Classification in MRI Images Using Combined Transfer Learning and Convolutional Neural Networks,9,35.7933197893114
+Q016,Factual,5,Article_62,A Robust End-to-End Deep Learning-Based Approach for Effective and Reliable Brain Tumor Detection Using MR Images,15,35.62509247504799
+Q016,Factual,6,Article_132,A contrastive learning framework with adaptive feature fusion for brain tumor classification,7,35.35385124135246
+Q016,Factual,7,Article_62,A Robust End-to-End Deep Learning-Based Approach for Effective and Reliable Brain Tumor Detection Using MR Images,13,35.01298659046073
+Q016,Factual,8,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,35.0029132959578
+Q016,Factual,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,34.97683523931608
+Q016,Factual,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,34.92399004371702
+Q017,Factual,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,47.41406106800735
+Q017,Factual,2,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,1,43.99748600517733
+Q017,Factual,3,Article_140,"A Robust ConvNeXt-Based Framework for Efficient, Generalizable, and Explainable Brain Tumor Classification on MRI",10,43.73193667790022
+Q017,Factual,4,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,43.62490351513909
+Q017,Factual,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,43.30855307934815
+Q017,Factual,6,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,41.88938147188267
+Q017,Factual,7,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,41.42409868958868
+Q017,Factual,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,41.322209531009364
+Q017,Factual,9,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,41.09848480312492
+Q017,Factual,10,Article_113,Optimized Edge Detection Technique for Brain Tumor Detection in MR Images,15,41.014081156886924
+Q018,Factual,1,Article_135,"Explainable Hybrid Deep Learning Framework Integrating MobileNetV2, EfficientNetV2B0, and KNN for MRI-Based Brain Tumor Classification",1,49.49281066135569
+Q018,Factual,2,Article_17,Empowering Brain Tumor Diagnosis through Explainable Deep Learning,5,48.927462119028824
+Q018,Factual,3,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,48.250948069646014
+Q018,Factual,4,Article_116,MRI-based brain tumor detection using convolutional deep learning methods and chosen machine learning techniques,3,47.493041821564205
+Q018,Factual,5,Article_135,"Explainable Hybrid Deep Learning Framework Integrating MobileNetV2, EfficientNetV2B0, and KNN for MRI-Based Brain Tumor Classification",2,47.07206898766631
+Q018,Factual,6,Article_44,Automatic Smart Brain Tumor Classification and Prediction System Using Deep Learning,5,45.68173230186753
+Q018,Factual,7,Article_80,Efficient brain tumor grade classification using ensemble deep learning models,8,45.429269353721004
+Q018,Factual,8,Article_116,MRI-based brain tumor detection using convolutional deep learning methods and chosen machine learning techniques,3,44.7131369242005
+Q018,Factual,9,Article_44,Automatic Smart Brain Tumor Classification and Prediction System Using Deep Learning,7,44.694006898105755
+Q018,Factual,10,Article_135,"Explainable Hybrid Deep Learning Framework Integrating MobileNetV2, EfficientNetV2B0, and KNN for MRI-Based Brain Tumor Classification",8,44.6136674006131
+Q019,Factual,1,Article_135,"Explainable Hybrid Deep Learning Framework Integrating MobileNetV2, EfficientNetV2B0, and KNN for MRI-Based Brain Tumor Classification",4,38.07810890555193
+Q019,Factual,2,Article_61,An Effective Approach to Detect and Identify Brain Tumors Using Transfer Learning,6,37.480483329887235
+Q019,Factual,3,Article_18,"A Web-Deployed, Explainable AI System for Comprehensive Brain Tumor Diagnosis",8,36.16068426779635
+Q019,Factual,4,Article_61,An Effective Approach to Detect and Identify Brain Tumors Using Transfer Learning,9,33.81053369621192
+Q019,Factual,5,Article_75,Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics,6,33.68014690637422
+Q019,Factual,6,Article_16,Utilizing Customized CNN for Brain Tumor Prediction with Explainable AI,4,33.60334536841539
+Q019,Factual,7,Article_185,Utilizing customized CNN for brain tumor prediction with explainable AI,4,33.60334536841539
+Q019,Factual,8,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,4,33.578675236392684
+Q019,Factual,9,Article_2,3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI,4,32.938540500588125
+Q019,Factual,10,Article_39,A deep transfer learning and ensemble learning framework for brain tumor detection and classification in MRI images,15,32.61278863123158
+Q020,Factual,1,Article_38,Explainable artificial intelligence for brain tumor classification via fine-tuned transfer learning,6,36.804749646963494
+Q020,Factual,2,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,36.78046072820571
+Q020,Factual,3,Article_157,An interpretable CNN framework for multi-class brain tumor classification with visual explanation in MRI scans,3,36.204109645869764
+Q020,Factual,4,Article_135,"Explainable Hybrid Deep Learning Framework Integrating MobileNetV2, EfficientNetV2B0, and KNN for MRI-Based Brain Tumor Classification",4,34.96640157739158
+Q020,Factual,5,Article_39,A deep transfer learning and ensemble learning framework for brain tumor detection and classification in MRI images,15,34.919388549831325
+Q020,Factual,6,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,1,33.83030942723895
+Q020,Factual,7,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,5,33.64877306802553
+Q020,Factual,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,33.47031912646272
+Q020,Factual,9,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,6,33.10967043094462
+Q020,Factual,10,Article_7,An automated deep learning framework for brain tumor classification using MRI imagery,12,33.09249435595092
+Q021,Conceptual,1,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,9,72.19162089502387
+Q021,Conceptual,2,Article_107,Deep Learning for Brain Tumor Segmentation: A Survey of State-of-the-Art,6,39.43144587170023
+Q021,Conceptual,3,Article_130,Post-hoc eXplainable AI methods for analyzing medical images of gliomas â€” A review for clinical applications,7,34.141354412997266
+Q021,Conceptual,4,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,10,31.72957269086401
+Q021,Conceptual,5,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,2,31.026749572512834
+Q021,Conceptual,6,Article_107,Deep Learning for Brain Tumor Segmentation: A Survey of State-of-the-Art,9,30.753382673654805
+Q021,Conceptual,7,Article_133,SYNAPSE-X: a calibration-aware vision transformer framework for selective referral in multi-class brain tumor MRI classification,21,29.748614863479894
+Q021,Conceptual,8,Article_64,A Review on a Deep Learning Perspective in Brain Cancer Classification,12,29.47373742218109
+Q021,Conceptual,9,Article_190,The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS),49,29.234626925962996
+Q021,Conceptual,10,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,1,28.57397862791046
+Q022,Conceptual,1,Article_56,Classification of Tumor in Brain MR Images Using Deep Convolutional Neural Network and Global Average Pooling,8,30.463494015301354
+Q022,Conceptual,2,Article_109,Brain tumor classification using MRI images and deep learning techniques,8,29.61074028125915
+Q022,Conceptual,3,Article_109,Brain tumor classification using MRI images and deep learning techniques,17,27.56950774167194
+Q022,Conceptual,4,Article_109,Brain tumor classification using MRI images and deep learning techniques,8,27.559894056203834
+Q022,Conceptual,5,Article_70,Impact of Data-Augmentation on Brain Tumor Detection Using Different YOLO Versions Models,12,27.450646697124785
+Q022,Conceptual,6,Article_93,A Deep Learning Approach for Brain Tumor Classification and Segmentation Using a Multiscale Convolutional Neural Network,12,27.09602926365067
+Q022,Conceptual,7,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,26.857069772565126
+Q022,Conceptual,8,Article_35,Hybrid model integration with explainable AI for brain tumor diagnosis: a unified approach to MRI analysis and prediction,5,26.78592536080853
+Q022,Conceptual,9,Article_116,MRI-based brain tumor detection using convolutional deep learning methods and chosen machine learning techniques,14,26.73163690123277
+Q022,Conceptual,10,Article_157,An interpretable CNN framework for multi-class brain tumor classification with visual explanation in MRI scans,3,26.714078022081743
+Q023,Conceptual,1,Article_66,Classification of Brain Tumors from MRI Images Using a Convolutional Neural Network,8,23.076082508436965
+Q023,Conceptual,2,Article_91,Deep learning-driven brain tumor classification and segmentation using non-contrast MRI,12,21.429862226660568
+Q023,Conceptual,3,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,2,21.42443336696572
+Q023,Conceptual,4,Article_109,Brain tumor classification using MRI images and deep learning techniques,17,20.317876887018
+Q023,Conceptual,5,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,10,19.81864117839435
+Q023,Conceptual,6,Article_139,An Interpretable Deep Learning Approach for Brain Tumor Classification Using a Bangladeshi Brain MRI Dataset,3,19.614613165635188
+Q023,Conceptual,7,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,4,19.204786185884878
+Q023,Conceptual,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,19.04399006766122
+Q023,Conceptual,9,Article_139,An Interpretable Deep Learning Approach for Brain Tumor Classification Using a Bangladeshi Brain MRI Dataset,2,18.871909666828806
+Q023,Conceptual,10,Article_92,Brain Cancer Tumor Classification from Motion-Corrected MRI Images Using Convolutional Neural Network,10,18.782080007046755
+Q024,Conceptual,1,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,28.008870625291348
+Q024,Conceptual,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,27.50861863257927
+Q024,Conceptual,3,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,13,26.500353980067594
+Q024,Conceptual,4,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,26.476725402173127
+Q024,Conceptual,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,26.310466772853047
+Q024,Conceptual,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,25.952702192727234
+Q024,Conceptual,7,Article_130,Post-hoc eXplainable AI methods for analyzing medical images of gliomas â€” A review for clinical applications,21,25.685567835474366
+Q024,Conceptual,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,25.609576029169734
+Q024,Conceptual,9,Article_131,Deep Learning Meets Explainability in MRI Brain Tumor Analysis: A Review and Future Research Framework,10,25.56957087419596
+Q024,Conceptual,10,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,1,25.54802349142471
+Q025,Conceptual,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,21.887266299348127
+Q025,Conceptual,2,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,8,21.00830210360853
+Q025,Conceptual,3,Article_22,Automatic brain MRI tumors segmentation based on deep fusion of weak edge and context features,21,20.467571994604533
+Q025,Conceptual,4,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,20.30849240244413
+Q025,Conceptual,5,Article_107,Deep Learning for Brain Tumor Segmentation: A Survey of State-of-the-Art,17,20.24721762010399
+Q025,Conceptual,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,9,20.002763234477545
+Q025,Conceptual,7,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,31,19.970090809634865
+Q025,Conceptual,8,Article_76,Brain tumor classification using fine-tuned transfer learning models on magnetic resonance imaging (MRI) images,5,19.93590968535741
+Q025,Conceptual,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,19.89674631151175
+Q025,Conceptual,10,Article_17,Empowering Brain Tumor Diagnosis through Explainable Deep Learning,15,19.41403894112368
+Q026,Conceptual,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,9,39.90988697787809
+Q026,Conceptual,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,39.63993199058532
+Q026,Conceptual,3,Article_140,"A Robust ConvNeXt-Based Framework for Efficient, Generalizable, and Explainable Brain Tumor Classification on MRI",10,35.8745658055524
+Q026,Conceptual,4,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,16,35.82251142037686
+Q026,Conceptual,5,Article_190,The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS),19,34.6382899715997
+Q026,Conceptual,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,34.297694776953946
+Q026,Conceptual,7,Article_190,The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS),13,33.49603661311277
+Q026,Conceptual,8,Article_116,MRI-based brain tumor detection using convolutional deep learning methods and chosen machine learning techniques,3,33.417096337850964
+Q026,Conceptual,9,Article_55,Transfer Learning Architectures with Fine-Tuning for Brain Tumor Classification Using Magnetic Resonance Imaging,2,33.28518533240214
+Q026,Conceptual,10,Article_76,Brain tumor classification using fine-tuned transfer learning models on magnetic resonance imaging (MRI) images,4,33.10120427133844
+Q027,Conceptual,1,Article_76,Brain tumor classification using fine-tuned transfer learning models on magnetic resonance imaging (MRI) images,2,19.016410233536767
+Q027,Conceptual,2,Article_131,Deep Learning Meets Explainability in MRI Brain Tumor Analysis: A Review and Future Research Framework,3,18.677820552180496
+Q027,Conceptual,3,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,18.145615983412217
+Q027,Conceptual,4,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,2,17.551587678639578
+Q027,Conceptual,5,Article_63,Deep Transfer Learning Approaches in Performance Analysis of Brain Tumor Classification Using MRI Images,3,17.478310108283413
+Q027,Conceptual,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,17.209080927287904
+Q027,Conceptual,7,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,9,17.087227451330655
+Q027,Conceptual,8,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,17.077205290451445
+Q027,Conceptual,9,Article_63,Deep Transfer Learning Approaches in Performance Analysis of Brain Tumor Classification Using MRI Images,3,16.990743328197823
+Q027,Conceptual,10,Article_128,Deep Learning for Smart Healthcareâ€”A Survey on Brain Tumor Detection from Medical Imaging,17,16.834282504528325
+Q028,Conceptual,1,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,20,18.786296032019106
+Q028,Conceptual,2,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,17.61663562582543
+Q028,Conceptual,3,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,2,17.60678718458313
+Q028,Conceptual,4,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,17.466051371451623
+Q028,Conceptual,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,17.436012381563874
+Q028,Conceptual,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,16,17.065263405385625
+Q028,Conceptual,7,Article_93,A Deep Learning Approach for Brain Tumor Classification and Segmentation Using a Multiscale Convolutional Neural Network,12,17.049409182419804
+Q028,Conceptual,8,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,3,16.930021981435395
+Q028,Conceptual,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,9,16.857088528889392
+Q028,Conceptual,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,16.80117469832374
+Q029,Conceptual,1,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,11,19.797139225313554
+Q029,Conceptual,2,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,8,19.44507970648785
+Q029,Conceptual,3,Article_191,Brain tumor segmentation with Deep Neural Networks,6,19.366101774051586
+Q029,Conceptual,4,Article_125,Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN,5,18.24080343017175
+Q029,Conceptual,5,Article_76,Brain tumor classification using fine-tuned transfer learning models on magnetic resonance imaging (MRI) images,4,17.881768559066355
+Q029,Conceptual,6,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,17.61663562582543
+Q029,Conceptual,7,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,2,17.60678718458313
+Q029,Conceptual,8,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,17.466051371451623
+Q029,Conceptual,9,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,20,17.44303786409815
+Q029,Conceptual,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,17.436012381563874
+Q030,Conceptual,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,21.287226443517813
+Q030,Conceptual,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,18.59429916919276
+Q030,Conceptual,3,Article_48,Transfer Learning and Explainable AI for Brain Tumor Classification: A Study Using MRI Data from Bangladesh,8,17.893135973584172
+Q030,Conceptual,4,Article_139,An Interpretable Deep Learning Approach for Brain Tumor Classification Using a Bangladeshi Brain MRI Dataset,9,17.724657634174275
+Q030,Conceptual,5,Article_63,Deep Transfer Learning Approaches in Performance Analysis of Brain Tumor Classification Using MRI Images,3,16.090350995313162
+Q030,Conceptual,6,Article_43,Brain Tumor Classification in MRI Scans Using Edge Computing and a Shallow Attention-Guided CNN,9,15.757247559619042
+Q030,Conceptual,7,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,9,15.663737030124167
+Q030,Conceptual,8,Article_1,Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor,11,15.562814349911015
+Q030,Conceptual,9,Article_152,Transparent brain tumor detection using DenseNet169 and LIME,4,15.130198010059821
+Q030,Conceptual,10,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,15.042763090727092
+Q031,Conceptual,1,Article_139,An Interpretable Deep Learning Approach for Brain Tumor Classification Using a Bangladeshi Brain MRI Dataset,9,27.82073558621598
+Q031,Conceptual,2,Article_109,Brain tumor classification using MRI images and deep learning techniques,17,21.926014061977693
+Q031,Conceptual,3,Article_82,Brain tumor classification from MRI images using a multi-scale channel attention CNN integrated with SVM,9,21.79379512101608
+Q031,Conceptual,4,Article_63,Deep Transfer Learning Approaches in Performance Analysis of Brain Tumor Classification Using MRI Images,3,20.85805275966936
+Q031,Conceptual,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,9,20.401191214778127
+Q031,Conceptual,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,20.380863290143374
+Q031,Conceptual,7,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,19.870442985037517
+Q031,Conceptual,8,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,19.7317002212782
+Q031,Conceptual,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,19.668614634941353
+Q031,Conceptual,10,Article_175,Boosting brain tumor detection with an optimized ResNet and explainability via Grad-CAM and LIME,9,18.950184553264858
+Q032,Conceptual,1,Article_1,Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor,9,22.176868722180938
+Q032,Conceptual,2,Article_116,MRI-based brain tumor detection using convolutional deep learning methods and chosen machine learning techniques,3,21.842814915765285
+Q032,Conceptual,3,Article_30,High-precision brain tumor diagnosis using SECNN-MNet framework and explainable AI,3,21.575451380669563
+Q032,Conceptual,4,Article_55,Transfer Learning Architectures with Fine-Tuning for Brain Tumor Classification Using Magnetic Resonance Imaging,4,20.555367761683105
+Q032,Conceptual,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,20.3698382683124
+Q032,Conceptual,6,Article_1,Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor,4,20.3667766155839
+Q032,Conceptual,7,Article_17,Empowering Brain Tumor Diagnosis through Explainable Deep Learning,12,20.251000862149603
+Q032,Conceptual,8,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,3,19.631116363289923
+Q032,Conceptual,9,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,20,19.459983641927977
+Q032,Conceptual,10,Article_124,Detection and classification of brain tumor using hybrid deep learning models,8,19.26360499968348
+Q033,Conceptual,1,Article_173,Generating Human Understandable Diagnosis Report for Brain Tumors from MRI Scans,2,18.090087319452742
+Q033,Conceptual,2,Article_109,Brain tumor classification using MRI images and deep learning techniques,17,15.873936260205623
+Q033,Conceptual,3,Article_140,"A Robust ConvNeXt-Based Framework for Efficient, Generalizable, and Explainable Brain Tumor Classification on MRI",11,15.305072832974709
+Q033,Conceptual,4,Article_131,Deep Learning Meets Explainability in MRI Brain Tumor Analysis: A Review and Future Research Framework,18,15.137999495558972
+Q033,Conceptual,5,Article_109,Brain tumor classification using MRI images and deep learning techniques,8,15.093115687011894
+Q033,Conceptual,6,Article_185,Utilizing customized CNN for brain tumor prediction with explainable AI,4,14.899270051002468
+Q033,Conceptual,7,Article_16,Utilizing Customized CNN for Brain Tumor Prediction with Explainable AI,4,14.899270051002468
+Q033,Conceptual,8,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,3,14.720652934990587
+Q033,Conceptual,9,Article_175,Boosting brain tumor detection with an optimized ResNet and explainability via Grad-CAM and LIME,5,14.151237573928826
+Q033,Conceptual,10,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,31,13.517987979586422
+Q034,Conceptual,1,Article_2,3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI,4,46.731796189694826
+Q034,Conceptual,2,Article_35,Hybrid model integration with explainable AI for brain tumor diagnosis: a unified approach to MRI analysis and prediction,6,41.138282301828106
+Q034,Conceptual,3,Article_35,Hybrid model integration with explainable AI for brain tumor diagnosis: a unified approach to MRI analysis and prediction,6,41.001457171665336
+Q034,Conceptual,4,Article_35,Hybrid model integration with explainable AI for brain tumor diagnosis: a unified approach to MRI analysis and prediction,6,31.156438024866638
+Q034,Conceptual,5,Article_131,Deep Learning Meets Explainability in MRI Brain Tumor Analysis: A Review and Future Research Framework,16,29.836608052354094
+Q034,Conceptual,6,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,4,29.779206481906588
+Q034,Conceptual,7,Article_139,An Interpretable Deep Learning Approach for Brain Tumor Classification Using a Bangladeshi Brain MRI Dataset,5,26.913564211116572
+Q034,Conceptual,8,Article_2,3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI,3,26.262313371552246
+Q034,Conceptual,9,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,4,25.531581343467927
+Q034,Conceptual,10,Article_183,CAE-BrainNet: a statistically validated class-adaptive attention ensemble model for explainable brain tumor classification from MRI,7,24.88110983870737
+Q035,Conceptual,1,Article_12,A denoising autoencoder–enhanced ResNet 50 framework for explainable brain tumor classification using MRI,3,17.911842854705533
+Q035,Conceptual,2,Article_12,A denoising autoencoder–enhanced ResNet 50 framework for explainable brain tumor classification using MRI,18,16.32612780860089
+Q035,Conceptual,3,Article_12,A denoising autoencoder–enhanced ResNet 50 framework for explainable brain tumor classification using MRI,2,15.591467957781578
+Q035,Conceptual,4,Article_61,An Effective Approach to Detect and Identify Brain Tumors Using Transfer Learning,2,15.07095439329589
+Q035,Conceptual,5,Article_12,A denoising autoencoder–enhanced ResNet 50 framework for explainable brain tumor classification using MRI,17,14.951388257085156
+Q035,Conceptual,6,Article_12,A denoising autoencoder–enhanced ResNet 50 framework for explainable brain tumor classification using MRI,3,14.566101043050041
+Q035,Conceptual,7,Article_12,A denoising autoencoder–enhanced ResNet 50 framework for explainable brain tumor classification using MRI,2,14.270456355910909
+Q035,Conceptual,8,Article_33,Explainable artificial intelligence with UNet based segmentation and Bayesian machine learning for classification of brain tumors using MRI images,3,14.217268145708788
+Q035,Conceptual,9,Article_108,A Survey of Brain Tumor Segmentation and Classification Algorithms,22,13.87483538770579
+Q035,Conceptual,10,Article_10,A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation,1,13.552769987162144
+Q036,Conceptual,1,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,24,22.450515960079244
+Q036,Conceptual,2,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,21.944870313242564
+Q036,Conceptual,3,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,21.84340496527552
+Q036,Conceptual,4,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,2,21.7490224133119
+Q036,Conceptual,5,Article_138,DDFC: deep learning approach for deep feature extraction and classification of brain tumors using magnetic resonance imaging in E-healthcare system,2,21.203254749605936
+Q036,Conceptual,6,Article_121,Brain tumor detection and classification using machine learning: a comprehensive survey,1,20.774935305699433
+Q036,Conceptual,7,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,4,20.7067907054436
+Q036,Conceptual,8,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,2,20.67280746553787
+Q036,Conceptual,9,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,20.624063200867703
+Q036,Conceptual,10,Article_113,Optimized Edge Detection Technique for Brain Tumor Detection in MR Images,15,20.436236500936435
+Q037,Conceptual,1,Article_36,Toward interpretable multiclass semantic intelligence: explainable brain tumor segmentation and automated grade stratification,3,20.785850150427216
+Q037,Conceptual,2,Article_70,Impact of Data-Augmentation on Brain Tumor Detection Using Different YOLO Versions Models,2,19.06718474232671
+Q037,Conceptual,3,Article_140,"A Robust ConvNeXt-Based Framework for Efficient, Generalizable, and Explainable Brain Tumor Classification on MRI",10,18.923980520272302
+Q037,Conceptual,4,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,2,18.427685984917026
+Q037,Conceptual,5,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,13,18.2527556614986
+Q037,Conceptual,6,Article_36,Toward interpretable multiclass semantic intelligence: explainable brain tumor segmentation and automated grade stratification,3,18.10361457861834
+Q037,Conceptual,7,Article_133,SYNAPSE-X: a calibration-aware vision transformer framework for selective referral in multi-class brain tumor MRI classification,6,17.628217571185328
+Q037,Conceptual,8,Article_91,Deep learning-driven brain tumor classification and segmentation using non-contrast MRI,12,16.54517254437506
+Q037,Conceptual,9,Article_10,A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation,8,16.26998216492482
+Q037,Conceptual,10,Article_173,Generating Human Understandable Diagnosis Report for Brain Tumors from MRI Scans,2,16.000959557382846
+Q038,Conceptual,1,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,5,41.07027365247588
+Q038,Conceptual,2,Article_152,Transparent brain tumor detection using DenseNet169 and LIME,12,35.02338002067689
+Q038,Conceptual,3,Article_135,"Explainable Hybrid Deep Learning Framework Integrating MobileNetV2, EfficientNetV2B0, and KNN for MRI-Based Brain Tumor Classification",4,34.521260312145586
+Q038,Conceptual,4,Article_140,"A Robust ConvNeXt-Based Framework for Efficient, Generalizable, and Explainable Brain Tumor Classification on MRI",12,31.684695311787408
+Q038,Conceptual,5,Article_109,Brain tumor classification using MRI images and deep learning techniques,8,30.347019905279712
+Q038,Conceptual,6,Article_44,Automatic Smart Brain Tumor Classification and Prediction System Using Deep Learning,7,30.058587001243634
+Q038,Conceptual,7,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,4,29.268237473882724
+Q038,Conceptual,8,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,3,29.259904586747915
+Q038,Conceptual,9,Article_53,Employing Deep Learning and Transfer Learning for Accurate Brain Tumor Detection,5,28.413587767537066
+Q038,Conceptual,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,27.885465218247862
+Q039,Conceptual,1,Article_98,rain Tumor Identification and Classification of MRI Images Using Deep Learning Techniques,4,22.478939846029526
+Q039,Conceptual,2,Article_113,Optimized Edge Detection Technique for Brain Tumor Detection in MR Images,12,22.39074426615687
+Q039,Conceptual,3,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,40,21.37597426040935
+Q039,Conceptual,4,Article_131,Deep Learning Meets Explainability in MRI Brain Tumor Analysis: A Review and Future Research Framework,16,20.439765773016088
+Q039,Conceptual,5,Article_121,Brain tumor detection and classification using machine learning: a comprehensive survey,4,19.306548825174996
+Q039,Conceptual,6,Article_159,From segmentation to explanation: Generating textual reports from MRI with LLMs,10,18.371816280520548
+Q039,Conceptual,7,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,13,17.17489708404463
+Q039,Conceptual,8,Article_128,Deep Learning for Smart Healthcareâ€”A Survey on Brain Tumor Detection from Medical Imaging,5,16.54816622535101
+Q039,Conceptual,9,Article_128,Deep Learning for Smart Healthcareâ€”A Survey on Brain Tumor Detection from Medical Imaging,12,16.176736947507237
+Q039,Conceptual,10,Article_18,"A Web-Deployed, Explainable AI System for Comprehensive Brain Tumor Diagnosis",21,16.067157529158788
+Q040,Conceptual,1,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,14.530728609553464
+Q040,Conceptual,2,Article_107,Deep Learning for Brain Tumor Segmentation: A Survey of State-of-the-Art,9,14.336814103684194
+Q040,Conceptual,3,Article_81,Brain Tumor Classification Using a Combination of Variational Autoencoders and Generative Adversarial Networks,5,13.927465404701719
+Q040,Conceptual,4,Article_108,A Survey of Brain Tumor Segmentation and Classification Algorithms,5,13.857800616923495
+Q040,Conceptual,5,Article_140,"A Robust ConvNeXt-Based Framework for Efficient, Generalizable, and Explainable Brain Tumor Classification on MRI",10,13.805556728737253
+Q040,Conceptual,6,Article_10,A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation,1,13.7443084886632
+Q040,Conceptual,7,Article_63,Deep Transfer Learning Approaches in Performance Analysis of Brain Tumor Classification Using MRI Images,3,13.727666679097059
+Q040,Conceptual,8,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,3,13.679531883214759
+Q040,Conceptual,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,13.56269941550569
+Q040,Conceptual,10,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,13.431856559563156
+Q041,Multi-paper Comparison,1,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,8,32.67057672903441
+Q041,Multi-paper Comparison,2,Article_35,Hybrid model integration with explainable AI for brain tumor diagnosis: a unified approach to MRI analysis and prediction,3,32.054789417760425
+Q041,Multi-paper Comparison,3,Article_157,An interpretable CNN framework for multi-class brain tumor classification with visual explanation in MRI scans,2,31.901383192813494
+Q041,Multi-paper Comparison,4,Article_69,Brain Tumor Detection and Categorization with Segmentation of Improved Unsupervised Clustering Approach and Machine Learning Classifier,9,31.668137134228356
+Q041,Multi-paper Comparison,5,Article_69,Brain Tumor Detection and Categorization with Segmentation of Improved Unsupervised Clustering Approach and Machine Learning Classifier,5,31.56787454908973
+Q041,Multi-paper Comparison,6,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,31,31.48625994618572
+Q041,Multi-paper Comparison,7,Article_49,Hybrid CNN-ResNet50 Model for Brain Tumor Classification Using Transfer Learning,3,31.404321168889116
+Q041,Multi-paper Comparison,8,Article_129,VGG-SCNet: A VGG Net-Based Deep Learning Framework for Brain Tumor Detection on MRI Images,2,31.20486228690545
+Q041,Multi-paper Comparison,9,Article_24,Refining neural network algorithms for accurate brain tumor classification in MRI imagery,4,31.15718932305224
+Q041,Multi-paper Comparison,10,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,13,31.120985343834988
+Q042,Multi-paper Comparison,1,Article_76,Brain tumor classification using fine-tuned transfer learning models on magnetic resonance imaging (MRI) images,4,25.38504315279926
+Q042,Multi-paper Comparison,2,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,5,24.100263476449566
+Q042,Multi-paper Comparison,3,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,23.58229625224238
+Q042,Multi-paper Comparison,4,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,4,23.19267459267551
+Q042,Multi-paper Comparison,5,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,21,23.04923861742339
+Q042,Multi-paper Comparison,6,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,22.3591893758814
+Q042,Multi-paper Comparison,7,Article_38,Explainable artificial intelligence for brain tumor classification via fine-tuned transfer learning,27,22.339691511848738
+Q042,Multi-paper Comparison,8,Article_140,"A Robust ConvNeXt-Based Framework for Efficient, Generalizable, and Explainable Brain Tumor Classification on MRI",10,21.744755165510234
+Q042,Multi-paper Comparison,9,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,4,21.480770208141582
+Q042,Multi-paper Comparison,10,Article_59,Multi-Modal Brain Tumor Detection Using Deep Neural Network and Multiclass SVM,15,21.400661539283348
+Q043,Multi-paper Comparison,1,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,40.64053988135137
+Q043,Multi-paper Comparison,2,Article_162,Benchmarking vision-language models for brain cancer diagnosis using multisequence MRI,2,39.39428235884675
+Q043,Multi-paper Comparison,3,Article_35,Hybrid model integration with explainable AI for brain tumor diagnosis: a unified approach to MRI analysis and prediction,21,39.36016771284419
+Q043,Multi-paper Comparison,4,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,39.31103390200753
+Q043,Multi-paper Comparison,5,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,5,39.30612364540787
+Q043,Multi-paper Comparison,6,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,39.22977046150845
+Q043,Multi-paper Comparison,7,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,4,39.2031171402511
+Q043,Multi-paper Comparison,8,Article_39,A deep transfer learning and ensemble learning framework for brain tumor detection and classification in MRI images,6,38.31115831949316
+Q043,Multi-paper Comparison,9,Article_67,Deep Learning: A Revolutionizing Approach to Brain Tumor Classification Using MRI,3,37.32939039837216
+Q043,Multi-paper Comparison,10,Article_38,Explainable artificial intelligence for brain tumor classification via fine-tuned transfer learning,10,37.328566157167074
+Q044,Multi-paper Comparison,1,Article_40,MT-brainVLM: a multi-task 3D vision–language model for hierarchical report generation with dual-path Shapley explainability,15,24.71734638528025
+Q044,Multi-paper Comparison,2,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,5,23.054821658158414
+Q044,Multi-paper Comparison,3,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,7,22.589486172513922
+Q044,Multi-paper Comparison,4,Article_174,Automated Radiological Reporting for Brain Tumor Using Deep Learning and LLMs,2,22.26345514464348
+Q044,Multi-paper Comparison,5,Article_190,The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS),15,22.11328360064667
+Q044,Multi-paper Comparison,6,Article_4,An active learning approach to train a deep learning algorithm for tumor segmentation from brain MR images,5,22.013558628430637
+Q044,Multi-paper Comparison,7,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,4,21.124491385150932
+Q044,Multi-paper Comparison,8,Article_159,From segmentation to explanation: Generating textual reports from MRI with LLMs,7,20.956636083316862
+Q044,Multi-paper Comparison,9,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,20.858860080689244
+Q044,Multi-paper Comparison,10,Article_76,Brain tumor classification using fine-tuned transfer learning models on magnetic resonance imaging (MRI) images,4,20.681372562284732
+Q045,Multi-paper Comparison,1,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,5,28.525958853185102
+Q045,Multi-paper Comparison,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,9,27.344133051401545
+Q045,Multi-paper Comparison,3,Article_69,Brain Tumor Detection and Categorization with Segmentation of Improved Unsupervised Clustering Approach and Machine Learning Classifier,21,27.205990367059393
+Q045,Multi-paper Comparison,4,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,25,27.17299746951776
+Q045,Multi-paper Comparison,5,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,24,26.696144505034976
+Q045,Multi-paper Comparison,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,26.584734635245315
+Q045,Multi-paper Comparison,7,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,3,26.13166890490526
+Q045,Multi-paper Comparison,8,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,25.973994004484737
+Q045,Multi-paper Comparison,9,Article_109,Brain tumor classification using MRI images and deep learning techniques,17,25.58054204187216
+Q045,Multi-paper Comparison,10,Article_140,"A Robust ConvNeXt-Based Framework for Efficient, Generalizable, and Explainable Brain Tumor Classification on MRI",10,25.443979140223973
+Q046,Multi-paper Comparison,1,Article_2,3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI,1,43.77367846243873
+Q046,Multi-paper Comparison,2,Article_16,Utilizing Customized CNN for Brain Tumor Prediction with Explainable AI,2,43.59585910667846
+Q046,Multi-paper Comparison,3,Article_185,Utilizing customized CNN for brain tumor prediction with explainable AI,2,43.59585910667846
+Q046,Multi-paper Comparison,4,Article_185,Utilizing customized CNN for brain tumor prediction with explainable AI,1,43.359806345306396
+Q046,Multi-paper Comparison,5,Article_16,Utilizing Customized CNN for Brain Tumor Prediction with Explainable AI,1,43.359806345306396
+Q046,Multi-paper Comparison,6,Article_2,3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI,7,43.00615158700962
+Q046,Multi-paper Comparison,7,Article_2,3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI,2,42.81386754083734
+Q046,Multi-paper Comparison,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,41.62225623822251
+Q046,Multi-paper Comparison,9,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,53,41.48761429660395
+Q046,Multi-paper Comparison,10,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,41.146744684895076
+Q047,Multi-paper Comparison,1,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,5,73.73610475990574
+Q047,Multi-paper Comparison,2,Article_5,Multi-class brain tumor MRI segmentation and classification using deep learning and machine learning approaches,1,72.02913417735805
+Q047,Multi-paper Comparison,3,Article_17,Empowering Brain Tumor Diagnosis through Explainable Deep Learning,1,71.26417169157355
+Q047,Multi-paper Comparison,4,Article_133,SYNAPSE-X: a calibration-aware vision transformer framework for selective referral in multi-class brain tumor MRI classification,4,68.82164870696907
+Q047,Multi-paper Comparison,5,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,1,68.49812973463972
+Q047,Multi-paper Comparison,6,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,3,67.91091350617229
+Q047,Multi-paper Comparison,7,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,4,67.38058537681252
+Q047,Multi-paper Comparison,8,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,4,67.14620020916
+Q047,Multi-paper Comparison,9,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,6,67.09550387273207
+Q047,Multi-paper Comparison,10,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,4,67.00211835643734
+Q048,Multi-paper Comparison,1,Article_12,A denoising autoencoder–enhanced ResNet 50 framework for explainable brain tumor classification using MRI,2,46.87665074814985
+Q048,Multi-paper Comparison,2,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,42.39131901161735
+Q048,Multi-paper Comparison,3,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,41.832400864122675
+Q048,Multi-paper Comparison,4,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,1,41.42554561952805
+Q048,Multi-paper Comparison,5,Article_39,A deep transfer learning and ensemble learning framework for brain tumor detection and classification in MRI images,1,41.3952309986739
+Q048,Multi-paper Comparison,6,Article_55,Transfer Learning Architectures with Fine-Tuning for Brain Tumor Classification Using Magnetic Resonance Imaging,2,41.38501576455633
+Q048,Multi-paper Comparison,7,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,41.247916994948035
+Q048,Multi-paper Comparison,8,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,4,41.23674052885765
+Q048,Multi-paper Comparison,9,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,4,40.744787808371406
+Q048,Multi-paper Comparison,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,40.64361856059
+Q049,Multi-paper Comparison,1,Article_13,Explainable AI-driven MRI-based brain tumor classification: a novel deep learning approach,24,39.24914069816011
+Q049,Multi-paper Comparison,2,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,16,38.813230989498095
+Q049,Multi-paper Comparison,3,Article_140,"A Robust ConvNeXt-Based Framework for Efficient, Generalizable, and Explainable Brain Tumor Classification on MRI",8,38.64381301957769
+Q049,Multi-paper Comparison,4,Article_130,Post-hoc eXplainable AI methods for analyzing medical images of gliomas â€” A review for clinical applications,6,37.09256790624521
+Q049,Multi-paper Comparison,5,Article_175,Boosting brain tumor detection with an optimized ResNet and explainability via Grad-CAM and LIME,3,36.75797653119132
+Q049,Multi-paper Comparison,6,Article_24,Refining neural network algorithms for accurate brain tumor classification in MRI imagery,17,36.60776650629205
+Q049,Multi-paper Comparison,7,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,36.40505219870961
+Q049,Multi-paper Comparison,8,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,31,36.31172693232951
+Q049,Multi-paper Comparison,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,35.52071387308824
+Q049,Multi-paper Comparison,10,Article_16,Utilizing Customized CNN for Brain Tumor Prediction with Explainable AI,6,35.271870839846606
+Q050,Multi-paper Comparison,1,Article_33,Explainable artificial intelligence with UNet based segmentation and Bayesian machine learning for classification of brain tumors using MRI images,3,56.35696609104496
+Q050,Multi-paper Comparison,2,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,2,55.72717670727829
+Q050,Multi-paper Comparison,3,Article_145,A brain tumor segmentation enhancement in MRI images using U-Net and transfer learning,1,54.839676638313485
+Q050,Multi-paper Comparison,4,Article_131,Deep Learning Meets Explainability in MRI Brain Tumor Analysis: A Review and Future Research Framework,3,53.782771488764766
+Q050,Multi-paper Comparison,5,Article_33,Explainable artificial intelligence with UNet based segmentation and Bayesian machine learning for classification of brain tumors using MRI images,2,53.641630447854624
+Q050,Multi-paper Comparison,6,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,8,53.24663307011753
+Q050,Multi-paper Comparison,7,Article_155,ExU-Trans: a self-explanatory transformer with U-Net based hybrid model for brain tumor segmentation using MR imaging,9,52.74122314141967
+Q050,Multi-paper Comparison,8,Article_61,An Effective Approach to Detect and Identify Brain Tumors Using Transfer Learning,4,52.550885860220426
+Q050,Multi-paper Comparison,9,Article_155,ExU-Trans: a self-explanatory transformer with U-Net based hybrid model for brain tumor segmentation using MR imaging,4,52.48946285363103
+Q050,Multi-paper Comparison,10,Article_10,A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation,27,51.717864343649616
+Q051,Multi-paper Comparison,1,Article_145,A brain tumor segmentation enhancement in MRI images using U-Net and transfer learning,1,47.59421795891916
+Q051,Multi-paper Comparison,2,Article_1,Robust clinical applicable CNN and U-Net based algorithm for MRI classification and segmentation for brain tumor,17,47.15959849214392
+Q051,Multi-paper Comparison,3,Article_92,Brain Cancer Tumor Classification from Motion-Corrected MRI Images Using Convolutional Neural Network,2,45.25671151455242
+Q051,Multi-paper Comparison,4,Article_47,Deep Brain Net: An Optimized Deep Learning Model for Brain Tumor Detection in MRI Images Using EfficientNetB0 and ResNet50 with Transfer Learning,2,45.184047179213124
+Q051,Multi-paper Comparison,5,Article_59,Multi-Modal Brain Tumor Detection Using Deep Neural Network and Multiclass SVM,3,44.42219398542921
+Q051,Multi-paper Comparison,6,Article_145,A brain tumor segmentation enhancement in MRI images using U-Net and transfer learning,2,44.35039275193825
+Q051,Multi-paper Comparison,7,Article_61,An Effective Approach to Detect and Identify Brain Tumors Using Transfer Learning,4,43.21385648892455
+Q051,Multi-paper Comparison,8,Article_39,A deep transfer learning and ensemble learning framework for brain tumor detection and classification in MRI images,6,43.20167036466496
+Q051,Multi-paper Comparison,9,Article_155,ExU-Trans: a self-explanatory transformer with U-Net based hybrid model for brain tumor segmentation using MR imaging,2,42.90106298417906
+Q051,Multi-paper Comparison,10,Article_33,Explainable artificial intelligence with UNet based segmentation and Bayesian machine learning for classification of brain tumors using MRI images,3,42.84056386552016
+Q052,Multi-paper Comparison,1,Article_10,A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation,5,39.04534560210212
+Q052,Multi-paper Comparison,2,Article_10,A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation,34,36.869830751534664
+Q052,Multi-paper Comparison,3,Article_134,"CMDA-Net: Auditable SHAP-based brain-tumor MRI classification, with a cross-modal dynamic-attention design for modality-robust segmentation",2,35.58055904516249
+Q052,Multi-paper Comparison,4,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,22,34.860295016224725
+Q052,Multi-paper Comparison,5,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,21,33.94488328159264
+Q052,Multi-paper Comparison,6,Article_167,LIGHT: Learning Image-text Grounding for Hierarchical Tumor Localization and Subtype Classification in Multimodal Brain MRI,3,32.93333585915728
+Q052,Multi-paper Comparison,7,Article_10,A Multi-Stage Deep Learning Framework for Automated Brain Tumor Diagnosis and Clinical Report Generation,27,32.45872537588227
+Q052,Multi-paper Comparison,8,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,5,31.787671717936906
+Q052,Multi-paper Comparison,9,Article_40,MT-brainVLM: a multi-task 3D vision–language model for hierarchical report generation with dual-path Shapley explainability,10,31.535856155656617
+Q052,Multi-paper Comparison,10,Article_155,ExU-Trans: a self-explanatory transformer with U-Net based hybrid model for brain tumor segmentation using MR imaging,4,31.334387995505374
+Q053,Multi-paper Comparison,1,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,5,42.621048087383635
+Q053,Multi-paper Comparison,2,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,4,39.365516409348785
+Q053,Multi-paper Comparison,3,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,4,39.36506706989812
+Q053,Multi-paper Comparison,4,Article_145,A brain tumor segmentation enhancement in MRI images using U-Net and transfer learning,4,38.546019226567466
+Q053,Multi-paper Comparison,5,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,7,38.236100156134405
+Q053,Multi-paper Comparison,6,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,37.9712506983867
+Q053,Multi-paper Comparison,7,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,37.91717189751901
+Q053,Multi-paper Comparison,8,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,4,37.43489641364514
+Q053,Multi-paper Comparison,9,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,6,36.566786640458474
+Q053,Multi-paper Comparison,10,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,4,36.52791906981214
+Q054,Multi-paper Comparison,1,Article_8,Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study,1,31.34639974351802
+Q054,Multi-paper Comparison,2,Article_8,Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study,7,29.37070922756576
+Q054,Multi-paper Comparison,3,Article_111,Consensus recommendations for a standardized brain tumor imaging protocol for clinical trials in brain metastases,3,28.24323491277741
+Q054,Multi-paper Comparison,4,Article_40,MT-brainVLM: a multi-task 3D vision–language model for hierarchical report generation with dual-path Shapley explainability,15,26.89953052191614
+Q054,Multi-paper Comparison,5,Article_150,Automated Lesion and Feature Extraction Pipeline for Brain MRIs with Interpretability,2,26.30873505315761
+Q054,Multi-paper Comparison,6,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,2,26.17293374747169
+Q054,Multi-paper Comparison,7,Article_162,Benchmarking vision-language models for brain cancer diagnosis using multisequence MRI,7,26.076652717128844
+Q054,Multi-paper Comparison,8,Article_40,MT-brainVLM: a multi-task 3D vision–language model for hierarchical report generation with dual-path Shapley explainability,11,25.395833975817435
+Q054,Multi-paper Comparison,9,Article_138,DDFC: deep learning approach for deep feature extraction and classification of brain tumors using magnetic resonance imaging in E-healthcare system,17,25.212926636173545
+Q054,Multi-paper Comparison,10,Article_162,Benchmarking vision-language models for brain cancer diagnosis using multisequence MRI,6,24.758215273523057
+Q055,Multi-paper Comparison,1,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,22,45.39099764103831
+Q055,Multi-paper Comparison,2,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,25,42.85137259525336
+Q055,Multi-paper Comparison,3,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,6,42.484092023887456
+Q055,Multi-paper Comparison,4,Article_122,Deep learning based brain tumor segmentation: a survey,18,42.021416615483204
+Q055,Multi-paper Comparison,5,Article_53,Employing Deep Learning and Transfer Learning for Accurate Brain Tumor Detection,14,41.912236606470586
+Q055,Multi-paper Comparison,6,Article_69,Brain Tumor Detection and Categorization with Segmentation of Improved Unsupervised Clustering Approach and Machine Learning Classifier,20,41.82627386128141
+Q055,Multi-paper Comparison,7,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,19,41.638949392036935
+Q055,Multi-paper Comparison,8,Article_122,Deep learning based brain tumor segmentation: a survey,17,41.555152469214626
+Q055,Multi-paper Comparison,9,Article_155,ExU-Trans: a self-explanatory transformer with U-Net based hybrid model for brain tumor segmentation using MR imaging,4,41.326768445381106
+Q055,Multi-paper Comparison,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,40.99002540936582
+Q056,Multi-paper Comparison,1,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,13,39.27352545285746
+Q056,Multi-paper Comparison,2,Article_129,VGG-SCNet: A VGG Net-Based Deep Learning Framework for Brain Tumor Detection on MRI Images,2,36.73276279944569
+Q056,Multi-paper Comparison,3,Article_157,An interpretable CNN framework for multi-class brain tumor classification with visual explanation in MRI scans,2,36.31350763456425
+Q056,Multi-paper Comparison,4,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,8,35.34066366006301
+Q056,Multi-paper Comparison,5,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,4,35.330854058350475
+Q056,Multi-paper Comparison,6,Article_108,A Survey of Brain Tumor Segmentation and Classification Algorithms,1,35.23664659784487
+Q056,Multi-paper Comparison,7,Article_83,Brain Tumor Classification in MRI Images Using Combined Transfer Learning and Convolutional Neural Networks,3,34.9779911800022
+Q056,Multi-paper Comparison,8,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,34.721167876792265
+Q056,Multi-paper Comparison,9,Article_24,Refining neural network algorithms for accurate brain tumor classification in MRI imagery,4,34.34675791391242
+Q056,Multi-paper Comparison,10,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,5,34.03064893993652
+Q057,Multi-paper Comparison,1,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,4,40.84523000877006
+Q057,Multi-paper Comparison,2,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,5,35.17043156058869
+Q057,Multi-paper Comparison,3,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,6,34.81700798587271
+Q057,Multi-paper Comparison,4,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,4,34.247860266954916
+Q057,Multi-paper Comparison,5,Article_12,A denoising autoencoder–enhanced ResNet 50 framework for explainable brain tumor classification using MRI,2,33.390918097145665
+Q057,Multi-paper Comparison,6,Article_76,Brain tumor classification using fine-tuned transfer learning models on magnetic resonance imaging (MRI) images,4,31.871291026098966
+Q057,Multi-paper Comparison,7,Article_24,Refining neural network algorithms for accurate brain tumor classification in MRI imagery,4,31.552574706337253
+Q057,Multi-paper Comparison,8,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,3,31.51116917355738
+Q057,Multi-paper Comparison,9,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,7,31.14548678026745
+Q057,Multi-paper Comparison,10,Article_93,A Deep Learning Approach for Brain Tumor Classification and Segmentation Using a Multiscale Convolutional Neural Network,12,31.088330282764574
+Q058,Multi-paper Comparison,1,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,37.42642722007778
+Q058,Multi-paper Comparison,2,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,7,36.606449325182936
+Q058,Multi-paper Comparison,3,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,4,36.21956428723554
+Q058,Multi-paper Comparison,4,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,5,35.73288138175758
+Q058,Multi-paper Comparison,5,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,34.65940334930981
+Q058,Multi-paper Comparison,6,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,4,33.90641522781644
+Q058,Multi-paper Comparison,7,Article_75,Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics,4,33.73117072366983
+Q058,Multi-paper Comparison,8,Article_76,Brain tumor classification using fine-tuned transfer learning models on magnetic resonance imaging (MRI) images,4,33.35142442369697
+Q058,Multi-paper Comparison,9,Article_75,Transfer learning for accurate brain tumor classification in MRI: a step forward in medical diagnostics,4,33.2450071742023
+Q058,Multi-paper Comparison,10,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,6,32.73630881435214
+Q059,Multi-paper Comparison,1,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,3,32.41933449578194
+Q059,Multi-paper Comparison,2,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,14,31.091282024656532
+Q059,Multi-paper Comparison,3,Article_76,Brain tumor classification using fine-tuned transfer learning models on magnetic resonance imaging (MRI) images,2,30.98291804686322
+Q059,Multi-paper Comparison,4,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,9,30.599869573880035
+Q059,Multi-paper Comparison,5,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,5,30.471652162113806
+Q059,Multi-paper Comparison,6,Article_109,Brain tumor classification using MRI images and deep learning techniques,17,30.44784604864743
+Q059,Multi-paper Comparison,7,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,3,30.364088224982805
+Q059,Multi-paper Comparison,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,30.001448320127555
+Q059,Multi-paper Comparison,9,Article_163,Enhancing brain tumor detection in MRI images through explainable AI using Grad-CAM with Resnet 50,18,29.33777841192183
+Q059,Multi-paper Comparison,10,Article_25,Enhancing brain tumor detection in MRI images through explainable AI using Grad-CAM with ResNet50,18,29.33777841192183
+Q060,Multi-paper Comparison,1,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,3,43.7839698091096
+Q060,Multi-paper Comparison,2,Article_2,3D MRI reconstruction and brain tumor diagnosis using deep learning with explainable AI,2,39.88607058111735
+Q060,Multi-paper Comparison,3,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,37.77635017272437
+Q060,Multi-paper Comparison,4,Article_28,Explainable CNN for brain tumor detection and classification through XAI based key features identification,10,36.547912355445746
+Q060,Multi-paper Comparison,5,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,53,36.25996627612219
+Q060,Multi-paper Comparison,6,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,31,36.15725339437172
+Q060,Multi-paper Comparison,7,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,4,36.0647751477871
+Q060,Multi-paper Comparison,8,Article_23,Explainable AI and vision transformers for detection and classification of brain tumor: a comprehensive survey,6,35.88213883834794
+Q060,Multi-paper Comparison,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,35.21045463033689
+Q060,Multi-paper Comparison,10,Article_38,Explainable artificial intelligence for brain tumor classification via fine-tuned transfer learning,3,34.990576685368346
+Q061,Unanswerable,1,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,2,50.07980848959018
+Q061,Unanswerable,2,Article_144,Interpreting deep learning models for glioma survival classification using visualization and textual explanations,11,49.61912933743786
+Q061,Unanswerable,3,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,2,48.94399195375565
+Q061,Unanswerable,4,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,2,48.72827627442595
+Q061,Unanswerable,5,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,7,47.83040714251133
+Q061,Unanswerable,6,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,26,47.357583308474815
+Q061,Unanswerable,7,Article_118,Overcoming the bloodâ€“brain barrier for the therapy of malignant brain tumor: current status and prospects of drug delivery approaches,2,46.838797553016036
+Q061,Unanswerable,8,Article_187,Enhanced brain tumor classification using graph convolutional neural network architecture,2,46.69454270801061
+Q061,Unanswerable,9,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,1,46.10275888775759
+Q061,Unanswerable,10,Article_105,Improving Effectiveness of Different Deep Transfer Learning-Based Models for Detecting Brain Tumors From MR Images,2,45.56240614283766
+Q062,Unanswerable,1,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,24,42.50951781071651
+Q062,Unanswerable,2,Article_144,Interpreting deep learning models for glioma survival classification using visualization and textual explanations,11,41.8103678332293
+Q062,Unanswerable,3,Article_102,Hyperthermia treatment advances for brain tumors,5,41.77410316072697
+Q062,Unanswerable,4,Article_166,BrAInVision: A hybrid explainable Artificial Intelligence framework for brain MRI analysis,1,41.66506527624214
+Q062,Unanswerable,5,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,2,41.31557257081301
+Q062,Unanswerable,6,Article_112,Resting-state fMRI detects alterations in whole brain connectivity related to tumor biology in glioma patients,2,41.04377670298113
+Q062,Unanswerable,7,Article_73,Accurate Brain Tumor Detection Using Deep Convolutional Neural Network,2,40.95564728137326
+Q062,Unanswerable,8,Article_145,A brain tumor segmentation enhancement in MRI images using U-Net and transfer learning,5,40.836047647276395
+Q062,Unanswerable,9,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,1,40.76117950074577
+Q062,Unanswerable,10,Article_99,Data Augmentation and Transfer Learning for Brain Tumor Detection in Magnetic Resonance Imaging,2,40.53588835794782
+Q063,Unanswerable,1,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,40.87611027893546
+Q063,Unanswerable,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,39.75693262767706
+Q063,Unanswerable,3,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,38.551725643109826
+Q063,Unanswerable,4,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,3,38.25870467786154
+Q063,Unanswerable,5,Article_129,VGG-SCNet: A VGG Net-Based Deep Learning Framework for Brain Tumor Detection on MRI Images,3,38.061374608770635
+Q063,Unanswerable,6,Article_17,Empowering Brain Tumor Diagnosis through Explainable Deep Learning,26,37.92084476341863
+Q063,Unanswerable,7,Article_160,Interpretable Brain MRI Report Generation Anchored by Lesion Topography,4,37.74593515321907
+Q063,Unanswerable,8,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,24,37.50925344085667
+Q063,Unanswerable,9,Article_8,Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study,8,37.0437516034527
+Q063,Unanswerable,10,Article_83,Brain Tumor Classification in MRI Images Using Combined Transfer Learning and Convolutional Neural Networks,26,36.750860591430445
+Q064,Unanswerable,1,Article_129,VGG-SCNet: A VGG Net-Based Deep Learning Framework for Brain Tumor Detection on MRI Images,3,44.51524079706525
+Q064,Unanswerable,2,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,39.10315377334396
+Q064,Unanswerable,3,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,9,39.04840646384776
+Q064,Unanswerable,4,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,2,38.89491818167084
+Q064,Unanswerable,5,Article_55,Transfer Learning Architectures with Fine-Tuning for Brain Tumor Classification Using Magnetic Resonance Imaging,3,38.77495004646466
+Q064,Unanswerable,6,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,38.29120217316562
+Q064,Unanswerable,7,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,24,38.19571978768296
+Q064,Unanswerable,8,Article_51,Brain Tumor Classification Using Vision Transformer with Selective Cross-Attention Mechanism and Feature Calibration,7,38.048659874299304
+Q064,Unanswerable,9,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,3,37.664277641336945
+Q064,Unanswerable,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,37.62910927194079
+Q065,Unanswerable,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,41.423062246254766
+Q065,Unanswerable,2,Article_51,Brain Tumor Classification Using Vision Transformer with Selective Cross-Attention Mechanism and Feature Calibration,7,41.156515490307015
+Q065,Unanswerable,3,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,40.40446829353412
+Q065,Unanswerable,4,Article_158,A vascular-task response dependency and its application in functional imaging of brain tumors,1,40.39217973183005
+Q065,Unanswerable,5,Article_163,Enhancing brain tumor detection in MRI images through explainable AI using Grad-CAM with Resnet 50,18,40.2170900625904
+Q065,Unanswerable,6,Article_25,Enhancing brain tumor detection in MRI images through explainable AI using Grad-CAM with ResNet50,18,40.2170900625904
+Q065,Unanswerable,7,Article_129,VGG-SCNet: A VGG Net-Based Deep Learning Framework for Brain Tumor Detection on MRI Images,3,39.558981442073566
+Q065,Unanswerable,8,Article_70,Impact of Data-Augmentation on Brain Tumor Detection Using Different YOLO Versions Models,9,39.52061340907865
+Q065,Unanswerable,9,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,4,39.488851147709745
+Q065,Unanswerable,10,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,16,39.43568888512907
+Q066,Unanswerable,1,Article_113,Optimized Edge Detection Technique for Brain Tumor Detection in MR Images,15,38.251470921942335
+Q066,Unanswerable,2,Article_91,Deep learning-driven brain tumor classification and segmentation using non-contrast MRI,4,37.1677085078957
+Q066,Unanswerable,3,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,19,36.787845977380414
+Q066,Unanswerable,4,Article_145,A brain tumor segmentation enhancement in MRI images using U-Net and transfer learning,5,36.05295756793369
+Q066,Unanswerable,5,Article_8,Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study,8,35.137900608896395
+Q066,Unanswerable,6,Article_112,Resting-state fMRI detects alterations in whole brain connectivity related to tumor biology in glioma patients,5,34.98282405433442
+Q066,Unanswerable,7,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,19,34.76045691666766
+Q066,Unanswerable,8,Article_139,An Interpretable Deep Learning Approach for Brain Tumor Classification Using a Bangladeshi Brain MRI Dataset,4,34.54419624518347
+Q066,Unanswerable,9,Article_144,Interpreting deep learning models for glioma survival classification using visualization and textual explanations,3,34.52274121430123
+Q066,Unanswerable,10,Article_158,A vascular-task response dependency and its application in functional imaging of brain tumors,1,34.44509492872209
+Q067,Unanswerable,1,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,20,36.59731563859128
+Q067,Unanswerable,2,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,28,35.591713319648065
+Q067,Unanswerable,3,Article_16,Utilizing Customized CNN for Brain Tumor Prediction with Explainable AI,8,35.537369238551264
+Q067,Unanswerable,4,Article_185,Utilizing customized CNN for brain tumor prediction with explainable AI,8,35.537369238551264
+Q067,Unanswerable,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,34.06020964361505
+Q067,Unanswerable,6,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,33.942898465657734
+Q067,Unanswerable,7,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,21,33.90933415485321
+Q067,Unanswerable,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,33.66500604308982
+Q067,Unanswerable,9,Article_91,Deep learning-driven brain tumor classification and segmentation using non-contrast MRI,19,33.63530031312669
+Q067,Unanswerable,10,Article_113,Optimized Edge Detection Technique for Brain Tumor Detection in MR Images,3,33.62306029087693
+Q068,Unanswerable,1,Article_190,The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS),19,41.357759582062954
+Q068,Unanswerable,2,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,2,40.902355397023264
+Q068,Unanswerable,3,Article_55,Transfer Learning Architectures with Fine-Tuning for Brain Tumor Classification Using Magnetic Resonance Imaging,3,39.92225178074318
+Q068,Unanswerable,4,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,26,38.74324872430353
+Q068,Unanswerable,5,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,33,38.3705347292597
+Q068,Unanswerable,6,Article_139,An Interpretable Deep Learning Approach for Brain Tumor Classification Using a Bangladeshi Brain MRI Dataset,4,38.30437096855053
+Q068,Unanswerable,7,Article_8,Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study,8,38.21975651125414
+Q068,Unanswerable,8,Article_110,Deep-Learning Detection of Cancer Metastases to the Brain on MRI,4,38.04848665972068
+Q068,Unanswerable,9,Article_158,A vascular-task response dependency and its application in functional imaging of brain tumors,1,37.764417178323576
+Q068,Unanswerable,10,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,4,37.74046085019116
+Q069,Unanswerable,1,Article_109,Brain tumor classification using MRI images and deep learning techniques,2,45.92588473118547
+Q069,Unanswerable,2,Article_63,Deep Transfer Learning Approaches in Performance Analysis of Brain Tumor Classification Using MRI Images,2,45.16039986467902
+Q069,Unanswerable,3,Article_6,NeuroNet19: an explainable deep neural network model for the classification of brain tumors using magnetic resonance imaging data,2,44.186177231314886
+Q069,Unanswerable,4,Article_146,Attention Deep Feature Extraction from Brain MRIs in Explainable Mode: DGXAINet,2,43.38430471809447
+Q069,Unanswerable,5,Article_115,Intraoperative ultrasound in brain tumor surgery: A review and implementation guide,11,43.25389328983456
+Q069,Unanswerable,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,41.69527063126754
+Q069,Unanswerable,7,Article_64,A Review on a Deep Learning Perspective in Brain Cancer Classification,9,41.298581221601765
+Q069,Unanswerable,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,41.16574895974292
+Q069,Unanswerable,9,Article_157,An interpretable CNN framework for multi-class brain tumor classification with visual explanation in MRI scans,1,41.12490854178459
+Q069,Unanswerable,10,Article_30,High-precision brain tumor diagnosis using SECNN-MNet framework and explainable AI,17,40.88042556300113
+Q070,Unanswerable,1,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,25,34.163258874363684
+Q070,Unanswerable,2,Article_176,AI-Assisted Brain Tumor MRI Reporting and Treatment-Planning Segmentation: A Retrospective Paired Workflow Evaluation,4,33.022449566134576
+Q070,Unanswerable,3,Article_35,Hybrid model integration with explainable AI for brain tumor diagnosis: a unified approach to MRI analysis and prediction,15,32.98702280353807
+Q070,Unanswerable,4,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,32.71618573727063
+Q070,Unanswerable,5,Article_189,A review on brain tumor segmentation based on deep learning methods with federated learning techniques,4,32.66974280011663
+Q070,Unanswerable,6,Article_147,Two stage large language model approach enhancing entity classification and relationship mapping in radiology reports,9,32.07507338727141
+Q070,Unanswerable,7,Article_129,VGG-SCNet: A VGG Net-Based Deep Learning Framework for Brain Tumor Detection on MRI Images,8,31.872292031347637
+Q070,Unanswerable,8,Article_37,From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection,7,31.6958928705217
+Q070,Unanswerable,9,Article_8,Evaluation of large language models for diagnostic impression generation from brain MRI report findings: a multicenter benchmark and reader study,12,31.664512264595558
+Q070,Unanswerable,10,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,15,31.611678359988076
+Q071,Unanswerable,1,Article_125,Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN,7,39.001780049734755
+Q071,Unanswerable,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,38.88785235906276
+Q071,Unanswerable,3,Article_166,BrAInVision: A hybrid explainable Artificial Intelligence framework for brain MRI analysis,2,38.73714704216075
+Q071,Unanswerable,4,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,2,38.34304594857402
+Q071,Unanswerable,5,Article_182,Current state and promise of user-centered design to harness explainable AI in clinical decision-support systems for patients with CNS tumors,2,38.20720598244192
+Q071,Unanswerable,6,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,4,38.025055713871986
+Q071,Unanswerable,7,Article_54,Brain Tumor Detection Based on Deep Learning Approaches and Magnetic Resonance Imaging,3,37.8996412449935
+Q071,Unanswerable,8,Article_92,Brain Cancer Tumor Classification from Motion-Corrected MRI Images Using Convolutional Neural Network,2,37.54241997466774
+Q071,Unanswerable,9,Article_17,Empowering Brain Tumor Diagnosis through Explainable Deep Learning,27,37.442191467879596
+Q071,Unanswerable,10,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,37.35543192970533
+Q072,Unanswerable,1,Article_46,Brain Tumor Classification from MRI Scans via Transfer Learning and Enhanced Feature Representation,1,53.398528056262336
+Q072,Unanswerable,2,Article_144,Interpreting deep learning models for glioma survival classification using visualization and textual explanations,1,51.01790055370424
+Q072,Unanswerable,3,Article_144,Interpreting deep learning models for glioma survival classification using visualization and textual explanations,11,45.93568678752058
+Q072,Unanswerable,4,Article_112,Resting-state fMRI detects alterations in whole brain connectivity related to tumor biology in glioma patients,9,45.494144377016745
+Q072,Unanswerable,5,Article_144,Interpreting deep learning models for glioma survival classification using visualization and textual explanations,8,44.234324733029275
+Q072,Unanswerable,6,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,24,44.08615813619603
+Q072,Unanswerable,7,Article_192,Multi-Modal Glioblastoma Segmentation: Man versus Machine,1,44.06449151010193
+Q072,Unanswerable,8,Article_144,Interpreting deep learning models for glioma survival classification using visualization and textual explanations,6,43.918847750706306
+Q072,Unanswerable,9,Article_97,"Brain Tumor Causes, Symptoms, Diagnosis and Radiotherapy Treatment",7,43.86174444032717
+Q072,Unanswerable,10,Article_158,A vascular-task response dependency and its application in functional imaging of brain tumors,1,43.53320245426905
+Q073,Unanswerable,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,33.14568542585369
+Q073,Unanswerable,2,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,31.28517037962908
+Q073,Unanswerable,3,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,30.39688966279469
+Q073,Unanswerable,4,Article_137,A paradigm shift toward explainable and federated intelligence for brain tumor MRI analysis,13,29.75814215864405
+Q073,Unanswerable,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,29.64776788732376
+Q073,Unanswerable,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,29.535550693603437
+Q073,Unanswerable,7,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,28.998471248099797
+Q073,Unanswerable,8,Article_113,Optimized Edge Detection Technique for Brain Tumor Detection in MR Images,14,28.945890273034102
+Q073,Unanswerable,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,28.334362993976544
+Q073,Unanswerable,10,Article_29,Promptable diffusion-enhanced foundation framework for explainable brain tumor segmentation and classification,4,28.244660656307897
+Q074,Unanswerable,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,44.579459494014834
+Q074,Unanswerable,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,40.64734538083039
+Q074,Unanswerable,3,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,40.360973925649205
+Q074,Unanswerable,4,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,1,39.803290931123975
+Q074,Unanswerable,5,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,39.25981332061321
+Q074,Unanswerable,6,Article_105,Improving Effectiveness of Different Deep Transfer Learning-Based Models for Detecting Brain Tumors From MR Images,2,38.092989994831285
+Q074,Unanswerable,7,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,1,37.11414687410411
+Q074,Unanswerable,8,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,37.0437960972676
+Q074,Unanswerable,9,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,36.910148277838836
+Q074,Unanswerable,10,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,36.402420572523596
+Q075,Unanswerable,1,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,33.35192773566787
+Q075,Unanswerable,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,31.095297982673706
+Q075,Unanswerable,3,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,30.563642521006923
+Q075,Unanswerable,4,Article_33,Explainable artificial intelligence with UNet based segmentation and Bayesian machine learning for classification of brain tumors using MRI images,3,29.96837681997434
+Q075,Unanswerable,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,29.66448987999422
+Q075,Unanswerable,6,Article_125,Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN,1,29.518374860565935
+Q075,Unanswerable,7,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,29.328266445243447
+Q075,Unanswerable,8,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,29.223986008784582
+Q075,Unanswerable,9,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,6,28.955891385997372
+Q075,Unanswerable,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,28.773996467161115
+Q076,Unanswerable,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,46.7892424566186
+Q076,Unanswerable,2,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,46.648662733223155
+Q076,Unanswerable,3,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,46.26290074394095
+Q076,Unanswerable,4,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,46.09807859944644
+Q076,Unanswerable,5,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,45.64656641360491
+Q076,Unanswerable,6,Article_125,Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN,6,45.00377363215225
+Q076,Unanswerable,7,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,43.58217017285747
+Q076,Unanswerable,8,Article_92,Brain Cancer Tumor Classification from Motion-Corrected MRI Images Using Convolutional Neural Network,2,43.51271990835461
+Q076,Unanswerable,9,Article_125,Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN,1,43.2701119026414
+Q076,Unanswerable,10,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,4,43.16994441935578
+Q077,Unanswerable,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,32.85340238596776
+Q077,Unanswerable,2,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,32.741887632000015
+Q077,Unanswerable,3,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,31.094284238535344
+Q077,Unanswerable,4,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,30.871884992815357
+Q077,Unanswerable,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,30.078071927810967
+Q077,Unanswerable,6,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,29.738722619106536
+Q077,Unanswerable,7,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,29.565294611679928
+Q077,Unanswerable,8,Article_33,Explainable artificial intelligence with UNet based segmentation and Bayesian machine learning for classification of brain tumors using MRI images,3,29.11765793212883
+Q077,Unanswerable,9,Article_26,From visual saliency to anatomical explanation: generating textual diagnostic reports from brain MRIs with saliency-grounded LLMs,1,28.82292302613488
+Q077,Unanswerable,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,15,28.669978853668255
+Q078,Unanswerable,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,32.75990928066605
+Q078,Unanswerable,2,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,32.741887632000015
+Q078,Unanswerable,3,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,31.722240909299547
+Q078,Unanswerable,4,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,30.595976780447597
+Q078,Unanswerable,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,30.339889311733355
+Q078,Unanswerable,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,29.785011352174607
+Q078,Unanswerable,7,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,29.75183761603448
+Q078,Unanswerable,8,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,29.589503451380377
+Q078,Unanswerable,9,Article_63,Deep Transfer Learning Approaches in Performance Analysis of Brain Tumor Classification Using MRI Images,2,29.426218921080682
+Q078,Unanswerable,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,29.246127510440925
+Q079,Unanswerable,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,41.30450964817719
+Q079,Unanswerable,2,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,40.19630719725944
+Q079,Unanswerable,3,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,39.61373182346711
+Q079,Unanswerable,4,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,39.20755965495908
+Q079,Unanswerable,5,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,14,38.320362007259135
+Q079,Unanswerable,6,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,2,38.185055887424234
+Q079,Unanswerable,7,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,37.046268888798
+Q079,Unanswerable,8,Article_125,Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN,1,36.93805681656562
+Q079,Unanswerable,9,Article_125,Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN,1,36.72301715862017
+Q079,Unanswerable,10,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,36.218355792615306
+Q080,Unanswerable,1,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,4,37.75108763494638
+Q080,Unanswerable,2,Article_3,Multi-Class Brain Tumor Grades Classification Using a Deep Learning-Based Majority Voting Algorithm and Its Validation Using Explainable-AI,2,35.371448324969855
+Q080,Unanswerable,3,Article_156,An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI,3,35.26015393810617
+Q080,Unanswerable,4,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,1,34.93196370114915
+Q080,Unanswerable,5,Article_111,Consensus recommendations for a standardized brain tumor imaging protocol for clinical trials in brain metastases,2,34.4378373149289
+Q080,Unanswerable,6,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,33.96325146073686
+Q080,Unanswerable,7,Article_182,Current state and promise of user-centered design to harness explainable AI in clinical decision-support systems for patients with CNS tumors,7,33.759655661492
+Q080,Unanswerable,8,Article_33,Explainable artificial intelligence with UNet based segmentation and Bayesian machine learning for classification of brain tumors using MRI images,3,33.58711954906879
+Q080,Unanswerable,9,Article_77,Classification of brain tumours in MR images using deep spatiospatial models,1,33.30120494102831
+Q080,Unanswerable,10,Article_34,Deep learning driven interpretable and informed decision making model for brain tumour prediction using explainable AI,2,33.221538932241636

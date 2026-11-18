@@ -1,0 +1,11 @@
+{
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "cross_encoder_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "llm_model": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "context_size": 2048,
+    "total_chunks": 8544,
+    "unique_articles": 187,
+    "retrieval_k": 10,
+    "top_k": 5,
+    "rrf_k": 60
+}

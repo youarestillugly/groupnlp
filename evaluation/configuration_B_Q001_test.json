@@ -1,0 +1,99 @@
+{
+    "question_id": "Q001",
+    "question": "What machine learning methods are used for brain tumour detection?",
+    "generated_answer": "Deep-learning methods are used for brain tumour detection, including CNN-LSTM and equalization of histograms. Feature extraction is performed separately in the third step using a modified MobileNetV2 architecture.\n[Explainability] has been employed to provide visual explanations of CNN decisions [9]. (S3)",
+    "response_time": 1.6892168521881104,
+    "finish_reason": "stop",
+    "retrieval_method": "BM25 with method-aware evidence selection",
+    "selected_sources": {
+        "S1": {
+            "article_id": "Article_138",
+            "title": "DDFC: deep learning approach for deep feature extraction and classification of brain tumors using magnetic resonance imaging in E-healthcare system",
+            "page_number": 2,
+            "chunk_id": "Article_138_P2_S2_C1"
+        },
+        "S2": {
+            "article_id": "Article_37",
+            "title": "From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection",
+            "page_number": 9,
+            "chunk_id": "Article_37_P9_S1_C1"
+        },
+        "S3": {
+            "article_id": "Article_24",
+            "title": "Refining neural network algorithms for accurate brain tumor classification in MRI imagery",
+            "page_number": 4,
+            "chunk_id": "Article_24_P4_S2_C1"
+        }
+    },
+    "selected_evidence": [
+        {
+            "chunk_id": "Article_138_P2_S2_C1",
+            "article_id": "Article_138",
+            "title": "DDFC: deep learning approach for deep feature extraction and classification of brain tumors using magnetic resonance imaging in E-healthcare system",
+            "authors": "Abdus Saboor; Jian Ping Li; Amin Ul Haq; Umer Shehzad; Shakir Khan; Reemiah Muneer Aotaibi; Saad Abdullah Alajlan",
+            "year": 2024,
+            "venue": "Scientific Reports",
+            "doi_or_url": "https://doi.org/10.1038/s41598-024-56983-6",
+            "page_number": 2,
+            "section_number": 2,
+            "section_heading": "Literature Review",
+            "character_count": 2454,
+            "text": "Literature Review\nThe brain tumor’s accurate and on-time detection is important for effective treatment and recovery at an early\nstage in the E-healthcare system. Artificial intelligence (AI) techniques particularly machine learning (ML) and\ndeep learning (DL)-based computer-aided diagnosis (CAD) systems play important roles in the detection of\ncritical diseases. The AI-based CAD system effectively interprets the MRI images of brain tumors as compared\nto medical doctors. However, AI-based CAD system predictive accuracy of interpreting the images is still not\nenough to accurately detect the brain tumor. To tackle the accurate detection problem of brain tumors various\nresearchers proposed different methods using machine learning deep learning techniques. In this research work,\nwe have explored various brain tumor detection methods to find the research gap in the domain and designed a\nnew method to accurately detect brain tumors using machine learning and deep learning techniques.\nHaq et al.4 proposed a new automated diagnostic framework for accurate brain cancer diagnosis, utilizing\ndeep learning techniques in an intelligent integrated model (CNN-LSTM) on BTDS, MBNDS, and BMIDS\ndatasets. The proposed model achieved high accuracy as compared to baseline models. ­Methil5 introduces a\nnovel method using brain imaging to identify brain cancers, utilizing equalization of histograms and methods\nfor opening, followed by a convolutional neural network for classification, achieving high accuracy. In another\nstudy, Jia and ­Chen6 proposed a novel approach called fully automatic heterogeneous segmentation using sup-\nport vector machines (FAHS-SVM) for accurately segmenting brain tumors using deep learning techniques in\nMRI scans. Manogaran et al.7 use a machine learning technique for analyzing orthogonal gamma distributions\nfor brain tumors, identifying abnormalities through the identification of regions of interest. Polly et al.8 work\npresents a computerized system using a support vector machine (SVM) to distinguish between healthy brain\nMRI images and abnormal brain tumors, achieving high accuracy, sensitivity, and specificity.\nRaut et al.9 proposed a CNN model for brain tumor detection, trained using pre-processed MRI scans, achiev-\ning 95.55% accuracy. K-means clustering is applied to identify specific tumor regions.\nIn this context, Lu et al.10 have recommended a DNN-based framework to address challenges in brain tumor",
+            "retrieval_score": 17.81922392386133,
+            "rank": 7,
+            "evidence_score": 14
+        },
+        {
+            "chunk_id": "Article_37_P9_S1_C1",
+            "article_id": "Article_37",
+            "title": "From black box AI to XAI in neuro-oncology: a survey on MRI-based tumor detection",
+            "authors": "Asmita; Praveen Mittal",
+            "year": 2025,
+            "venue": "Discover Artificial Intelligence, Volume 5, Article 30",
+            "doi_or_url": "https://doi.org/10.1007/s44163-025-00247-3",
+            "page_number": 9,
+            "section_number": 1,
+            "section_heading": "Limitations",
+            "character_count": 2427,
+            "text": "Vol.:(0123456789)\nDiscover Artificial Intelligence (2025) 5:30\n| https://doi.org/10.1007/s44163-025-00247-3\nReview\n• Decision Trees (DT): Decision Trees are a common machine learning model for classification, regression, and medical\nimage analysis. They function by recursively partitioning data based on feature values, creating a tree-like structure\nfor decision- making [18]. In brain tumor detection, DTs classify tumor types by identifying hierarchical patterns in MRI\nfeatures. Their simplicity and interpretability make them well-suited for medical applications, and when integrated\nwith ensemble methods like Random Forests, they achieve greater accuracy and robustness [19].\n• Random Forest (RF): Random Forest is an ensemble learning method that enhances classification and regression\naccuracy by combining multiple decision trees [19]. It operates by aggregating predictions from several trees, reducing\noverfitting and improving generalization. In brain tumor detection, RF effectively analyzes MRI features to distinguish\nbetween tumor types with high accuracy and robust- ness. Its ability to handle high-dimensional data and resist noise\nmakes it a reliable choice for medical image classification and segmentation.\n• K-Nearest Neighbors (KNN): K-Nearest Neighbours is a basic yet efficient machine learning technique used for\ncategorisation applications, such as medical picture analysis. It classifies data points based on the majority class of\ntheir nearest neighbors in feature space [20]. In brain tumor detection, KNN identifies tumor types by comparing MRI\nfeatures to those of known cases. Its non-parametric nature allows it to adapt to complex patterns, making it a useful\ntool for tumor classification, especially when combined with feature selection techniques to enhance accuracy and\nefficiency.\nTable 3 provides an overview of conventional machine learning techniques for brain tumor classification.\n4.1.2 \u0007Deep learning approach\nDeep learning (DL), a subset of machine learning (ML), has been widely used to create automated, semi-automatic,\nand hybrid models for efficient and accurate tumor segmentation and detection [30]. DL’s strength lies in its ability to\nautomatically extract and select features during training, overcoming limitations of traditional ML methods. Structured\nin layers inspired by the human brain, DL models process information through weighted sums, allowing them to solve",
+            "retrieval_score": 17.276548511743457,
+            "rank": 10,
+            "evidence_score": 10
+        },
+        {
+            "chunk_id": "Article_24_P4_S2_C1",
+            "article_id": "Article_24",
+            "title": "Refining neural network algorithms for accurate brain tumor classification in MRI imagery",
+            "authors": "Asma Alshuhail; Arastu Thakur; R Chandramma; T R Mahesh; Ahlam Almusharraf; V Vinoth Kumar; Surbhi Bhatia Khan",
+            "year": 2024,
+            "venue": "BMC Medical Imaging, Volume 24, Article 118",
+            "doi_or_url": "https://doi.org/10.1186/s12880-024-01285-6",
+            "page_number": 4,
+            "section_number": 2,
+            "section_heading": "Related Work",
+            "character_count": 2483,
+            "text": "Related Work\nThe realm of medical imaging, especially in the diagnosis\nand classification of brain tumors using MRI scans, has\nbeen a subject of extensive research, leading to significant\nadvancements over the years. This section delves into the\nrelated work, focusing on traditional methods, the advent\nof machine learning techniques, and the groundbreaking\nshift towards deep learning approaches.\nTraditional methods in brain tumor analysis\nInitially, brain tumor detection and classification in MRI\nscans relied heavily on manual interpretation by radiolo­\ngists. This process involved scrutinizing MRI scans to\nidentify irregularities indicative of tumors. While effec­\ntive to a degree, this approach was fraught with chal­\nlenges such as high variability in tumor appearance and\nthe potential for human error, leading to inconsistent\ndiagnosis accuracy.\nEarly machine learning techniques\nTo mitigate these challenges, early machine learning\ntechniques were introduced. These methods typically\ninvolved feature extraction from MRI images, where\ncharacteristics like shape, texture, and intensity were\nused to identify tumors. Classic algorithms like Sup­\nport Vector Machines (SVM), k-Nearest Neighbors\n(k-NN), and decision trees were employed for classifica­\ntion. Though these techniques improved the objectivity\nin diagnosis, they were limited by the need for manual\nfeature selection and their inability to process the high-\ndimensional data inherent in MRI images effectively.\nEmergence of deep learning\nThe emergence of deep learning, particularly CNNs,\nmarked a significant shift in medical image analysis.\nUnlike traditional machine learning, CNNs have the abil­\nity to automatically learn complex patterns directly from\nthe data, eliminating the need for manual feature extrac­\ntion. This capability made them particularly suitable for\nhigh-dimensional data like MRI scans.\nRecent advances\nRecent research has focused on addressing these chal­\nlenges. For example, techniques like data augmentation\nhave been used to effectively increase the size of train­\ning datasets. Furthermore, advances in explainable AI,\nsuch as Gradient-weighted Class Activation Mapping\n(Grad-CAM), have been employed to provide visual\nexplanations of CNN decisions, thereby enhancing the\ninterpretability of these models [9].\nIn Table 1 some of the notable studies in the field of\nbrain tumor are shown which show cases how the study\nevolved and what are the different trends currently in the",
+            "retrieval_score": 19.064092005547675,
+            "rank": 4,
+            "evidence_score": 9
+        },
+        {
+            "chunk_id": "Article_156_P3_S1_C3",
+            "article_id": "Article_156",
+            "title": "An explainable hybrid CNNâ€“vision transformer framework for brain tumor detection and classification using MRI",
+            "authors": "S. R. Sowmiya; N. Sabiyath Fatima",
+            "year": 2026,
+            "venue": "Scientific Reports",
+            "doi_or_url": "https://doi.org/10.1038/s41598-026-69418-1",
+            "page_number": 3,
+            "section_number": 1,
+            "section_heading": "Unlabelled / Continued Section",
+            "character_count": 2407,
+            "text": "2 provided that the Rotation Invariant Vision Transformer (RViT) deep learning algorithm\nclassifies brain tumors from MRI data. Rotated patch embeddings increase tumor detection. The model\noutperforms the Vision Transformer model and other methods in medical imaging. RViT’s specific design and\nrotational invariance technique should improve brain tumor detection and other challenging imaging tasks.\nTalaat et al.23 presented an AI-based Brain Tumour Detection (BTD) model, which diagnoses brain tumours\nusing MRI more efficiently and accurately than traditional approaches. An Image Processing Module (IPM) uses\nImproved Grey Wolf Optimisation (IGWO) to extract and select features from MRI data, a Patient Detection\nModule (PDM) uses classifiers to diagnose, and Explainable AI (XAI) improves decision-making transparency.\nThe BTD model has 98.8% accuracy, 97% precision, 97.5% recall, and 97.2% F-measure on 98 normal and 154\nabnormal cases, suggesting it could enhance brain tumour diagnosis and therapy.\nGopu et al.24 highlighted that medical imaging is essential for brain tumour diagnosis, but deep learning\nalgorithms suffer from overfitting and excessive computing costs. Segmentation, feature extraction, and\nclassification are integrated in the lightweight quantum dilated attention convolutional neural network LMAQDAC.\nGradient-weighted Class Activation Mapping pinpoints tumour locations and increases interpretability, while\nthe improved Hiking optimisation technique speeds up and stabilises training. Compression allows real-time\nperformance on compact devices with 99.96% accuracy, 99.4% F1-score, and 94.8% Dice coefficient, providing\nan enhanced framework for clinical brain tumour classification and segmentation.\nThis study proposed a novel deep learning-based model for automatic brain tumor classification using MRI\nimages by embedding a sophisticated convolutional network with optimized feature learning25. The proposed\napproach increased the classification accuracy by implementing effective feature extraction and preprocessing\ntechniques on spatial data. Experimental results showed competitive accuracy with enhanced generalization\nperformance, indicating the increasing significance of hybrid deep learning systems for accurate and explainable\nmedical image analysis.\nThis study aimed to explore an explainable artificial intelligence (XAI) approach to analyzing brain tumors",
+            "retrieval_score": 18.072537003686875,
+            "rank": 6,
+            "evidence_score": 9
+        }
+    ],
+    "generation_note": "Original model output preserved without manual correction. The answer omitted several relevant methods and included unsupported or incorrectly classified information."
+}
