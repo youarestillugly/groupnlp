@@ -7,3 +7,4 @@ transformers
 torch
 pypdf
 rank-bm25
+llama-cpp-python
