@@ -1,9 +1,9 @@
 
-streamlit
+streamlit==1.66.1
 pandas
 numpy
 joblib
 scikit-learn
-sentence-transformers
+sentence-transformers==6.2.0
 llama-cpp-python==0.3.37
-rank-bm25
+rank-bm25==0.2.2
