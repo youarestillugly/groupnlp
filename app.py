@@ -1,10 +1,10 @@
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
 import json
 import time
-import os
 
 from pathlib import Path
 from sentence_transformers import SentenceTransformer, CrossEncoder
@@ -21,8 +21,9 @@ BASE_DIR = Path(__file__).resolve().parent
 DEPLOY_DIR = BASE_DIR / "artifacts" / "deployment_D"
 
 MODEL_PATH = (
-    BASE_DIR / "models" /
-    "qwen2.5-0.5b-instruct-q4_k_m.gguf"
+    BASE_DIR
+    / "models"
+    / "qwen2.5-0.5b-instruct-q4_k_m.gguf"
 )
 
 st.set_page_config(
@@ -38,6 +39,23 @@ st.set_page_config(
 
 @st.cache_resource
 def load_resources():
+
+    # Check required files
+    required_files = [
+        DEPLOY_DIR / "hybrid_corpus.joblib",
+        DEPLOY_DIR / "hybrid_bm25_index.joblib",
+        DEPLOY_DIR / "dense_embeddings.npy",
+        DEPLOY_DIR / "deployment_config.json",
+        MODEL_PATH
+    ]
+
+    for file_path in required_files:
+
+        if not file_path.exists():
+
+            raise FileNotFoundError(
+                f"Required file not found: {file_path}"
+            )
 
     # Load saved Configuration D artifacts
     corpus = joblib.load(
@@ -57,37 +75,58 @@ def load_resources():
         "r",
         encoding="utf-8"
     ) as file:
+
         config = json.load(file)
 
     # Load embedding model
     embedding_model = SentenceTransformer(
-        config["embedding_model"]
+        config["embedding_model"],
+        device="cpu"
     )
 
     # Load CrossEncoder
     cross_encoder = CrossEncoder(
-        config["cross_encoder_model"]
+        config["cross_encoder_model"],
+        device="cpu"
     )
 
-    # Load local Qwen GGUF model
-    if not MODEL_PATH.exists():
-        raise FileNotFoundError(
-            f"Qwen model not found: {MODEL_PATH}"
-        )
+    # -----------------------------------------------------
+    # Load Qwen GGUF model using conservative CPU settings
+    # -----------------------------------------------------
+
+    context_size = int(
+        config.get("context_size", 2048)
+    )
 
     llm = Llama(
         model_path=str(MODEL_PATH),
-        n_ctx=config["context_size"],
-        n_threads=4,
+
+        n_ctx=context_size,
+
+        n_threads=1,
+
+        n_threads_batch=1,
+
+        n_batch=128,
+
+        n_ubatch=128,
+
+        n_gpu_layers=0,
+
+        use_mmap=False,
+
+        use_mlock=False,
+
         verbose=False
     )
 
-    # Check alignment
+    # Check alignment of Configuration D artifacts
     if not (
         len(corpus)
         == bm25_index.corpus_size
         == embeddings.shape[0]
     ):
+
         raise ValueError(
             "Configuration D artifacts are not aligned."
         )
@@ -127,7 +166,8 @@ def hybrid_bm25_search(
     results["bm25_score"] = scores[top_indices]
 
     results["bm25_rank"] = range(
-        1, len(results) + 1
+        1,
+        len(results) + 1
     )
 
     return results
@@ -163,7 +203,8 @@ def hybrid_dense_search(
     results["dense_score"] = scores[top_indices]
 
     results["dense_rank"] = range(
-        1, len(results) + 1
+        1,
+        len(results) + 1
     )
 
     return results
@@ -183,6 +224,7 @@ def reciprocal_rank_fusion(
 
     rank_scores = {}
 
+    # BM25 ranking scores
     for _, row in bm25_results.iterrows():
 
         chunk_id = row["chunk_id"]
@@ -192,6 +234,7 @@ def reciprocal_rank_fusion(
             + 1 / (k + row["bm25_rank"])
         )
 
+    # Dense ranking scores
     for _, row in dense_results.iterrows():
 
         chunk_id = row["chunk_id"]
@@ -221,7 +264,8 @@ def reciprocal_rank_fusion(
     ).reset_index(drop=True)
 
     results["fusion_rank"] = range(
-        1, len(results) + 1
+        1,
+        len(results) + 1
     )
 
     return results
@@ -267,13 +311,19 @@ def retrieve_hybrid_evidence(
         top_k=retrieval_k
     )
 
+    if fused_results.empty:
+        return fused_results
+
     # CrossEncoder reranking
     pairs = [
-        (query, passage)
+        (query, str(passage))
         for passage in fused_results["text"].tolist()
     ]
 
-    scores = cross_encoder.predict(pairs)
+    scores = cross_encoder.predict(
+        pairs,
+        batch_size=1
+    )
 
     fused_results = fused_results.copy()
 
@@ -285,7 +335,8 @@ def retrieve_hybrid_evidence(
     ).reset_index(drop=True)
 
     reranked["rerank_rank"] = range(
-        1, len(reranked) + 1
+        1,
+        len(reranked) + 1
     )
 
     return reranked.head(top_k)
@@ -302,7 +353,10 @@ def generate_hybrid_answer(
     max_tokens=220
 ):
 
-    if selected_evidence is None or selected_evidence.empty:
+    if (
+        selected_evidence is None
+        or selected_evidence.empty
+    ):
 
         return {
             "answer": (
@@ -348,7 +402,8 @@ def generate_hybrid_answer(
     )
 
     valid_labels = ", ".join(
-        f"[{label}]" for label in source_mapping
+        f"[{label}]"
+        for label in source_mapping
     )
 
     prompt = f"""
@@ -375,18 +430,26 @@ RESEARCH EVIDENCE:
 ANSWER:
 """
 
+    # Calculate prompt tokens
     prompt_tokens = len(
-        llm.tokenize(prompt.encode("utf-8"))
+        llm.tokenize(
+            prompt.encode("utf-8"),
+            add_bos=True
+        )
     )
 
-    if prompt_tokens + max_tokens > llm.n_ctx():
+    available_context = llm.n_ctx()
+
+    if prompt_tokens + max_tokens > available_context:
 
         raise ValueError(
-            f"Prompt requires {prompt_tokens} tokens. "
-            f"Available space for prompt: "
-            f"{llm.n_ctx() - max_tokens}."
+            f"Prompt requires {prompt_tokens} tokens, "
+            f"but the model context size is "
+            f"{available_context}. "
+            f"Please reduce the question or evidence length."
         )
 
+    # Generate answer
     start_time = time.time()
 
     response = llm(
@@ -394,14 +457,18 @@ ANSWER:
         max_tokens=max_tokens,
         temperature=0.1,
         top_p=0.9,
-        stop=["</s>"]
+        stop=["</s>", "<|im_end|>"],
+        echo=False
     )
 
     generation_time = time.time() - start_time
 
     answer = response["choices"][0]["text"].strip()
 
-    finish_reason = response["choices"][0]["finish_reason"]
+    finish_reason = response["choices"][0].get(
+        "finish_reason",
+        "unknown"
+    )
 
     return {
         "answer": answer,
@@ -423,6 +490,7 @@ st.markdown(
     ### Evidence-Grounded Academic Research Assistant
 
     Ask questions about the research papers in the collection.
+
     Answers are generated using retrieved research evidence
     and include source citations.
     """
@@ -430,7 +498,11 @@ st.markdown(
 
 st.divider()
 
-# Load application resources
+
+# =========================================================
+# 9. LOAD APPLICATION RESOURCES
+# =========================================================
+
 try:
 
     with st.spinner(
@@ -460,15 +532,20 @@ except Exception as error:
     st.stop()
 
 
-# Application information
+# =========================================================
+# 10. APPLICATION INFORMATION
+# =========================================================
+
 with st.expander("About this system"):
 
     st.write(
-        f"**Research papers:** {config['unique_articles']}"
+        f"**Research papers:** "
+        f"{config['unique_articles']}"
     )
 
     st.write(
-        f"**Retrieval passages:** {config['total_chunks']}"
+        f"**Retrieval passages:** "
+        f"{config['total_chunks']}"
     )
 
     st.write(
@@ -487,8 +564,15 @@ with st.expander("About this system"):
         "**Language model:** Qwen 2.5 0.5B Instruct"
     )
 
+    st.write(
+        "**Inference:** CPU"
+    )
 
-# Question input
+
+# =========================================================
+# 11. QUESTION INPUT
+# =========================================================
+
 question = st.text_area(
     "Enter your research question:",
     placeholder=(
@@ -506,7 +590,7 @@ ask_button = st.button(
 
 
 # =========================================================
-# 9. PROCESS QUESTION
+# 12. PROCESS QUESTION
 # =========================================================
 
 if ask_button:
@@ -547,61 +631,80 @@ if ask_button:
 
             st.divider()
 
+            # Display answer
             st.subheader("Answer")
 
-            st.write(result["answer"])
+            st.write(
+                result["answer"]
+            )
 
             # Display citations
             st.subheader("Supporting Sources")
 
-            for label, source in result["sources"].items():
+            if result["sources"]:
 
-                st.markdown(
-                    f"**[{label}] {source['title']}**"
-                )
+                for label, source in result["sources"].items():
 
-                st.caption(
-                    f"Article ID: {source['article_id']} | "
-                    f"Page: {source['page_number']} | "
-                    f"Chunk: {source['chunk_id']}"
+                    st.markdown(
+                        f"**[{label}] {source['title']}**"
+                    )
+
+                    st.caption(
+                        f"Article ID: {source['article_id']} | "
+                        f"Page: {source['page_number']} | "
+                        f"Chunk: {source['chunk_id']}"
+                    )
+
+            else:
+
+                st.info(
+                    "No supporting sources were retrieved."
                 )
 
             # Display retrieved passages
             st.subheader("Retrieved Evidence")
 
-            for index, (_, row) in enumerate(
-                evidence.iterrows(),
-                start=1
-            ):
+            if not evidence.empty:
 
-                with st.expander(
-                    f"Passage {index}: {row['title']}"
+                for index, (_, row) in enumerate(
+                    evidence.iterrows(),
+                    start=1
                 ):
 
-                    st.write(
-                        f"**Article:** {row['title']}"
-                    )
+                    with st.expander(
+                        f"Passage {index}: {row['title']}"
+                    ):
 
-                    st.write(
-                        f"**Page:** {row['page_number']}"
-                    )
+                        st.write(
+                            f"**Article:** {row['title']}"
+                        )
 
-                    st.write(
-                        f"**Section:** {row['section_heading']}"
-                    )
+                        st.write(
+                            f"**Page:** {row['page_number']}"
+                        )
 
-                    st.write(
-                        f"**Chunk ID:** {row['chunk_id']}"
-                    )
+                        st.write(
+                            f"**Section:** {row['section_heading']}"
+                        )
 
-                    st.write(
-                        row["text"]
-                    )
+                        st.write(
+                            f"**Chunk ID:** {row['chunk_id']}"
+                        )
 
-                    st.caption(
-                        f"Reranking score: "
-                        f"{row['rerank_score']:.4f}"
-                    )
+                        st.write(
+                            row["text"]
+                        )
+
+                        st.caption(
+                            f"Reranking score: "
+                            f"{row['rerank_score']:.4f}"
+                        )
+
+            else:
+
+                st.info(
+                    "No relevant passages were retrieved."
+                )
 
             # Performance information
             st.divider()
@@ -632,7 +735,10 @@ if ask_button:
             )
 
 
-# Footer
+# =========================================================
+# 13. FOOTER
+# =========================================================
+
 st.divider()
 
 st.caption(
