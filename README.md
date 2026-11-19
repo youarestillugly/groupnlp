@@ -1,33 +1,32 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "1e71715e-8cb2-44ac-8773-226777dc4277",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.12.14"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# Evidence-Grounded Research Assistant
+
+An AI-powered research assistant designed to retrieve and answer questions from scientific research papers related to brain tumor MRI interpretation.
+
+## Features
+- Hybrid retrieval using BM25 and dense embeddings
+- Reciprocal Rank Fusion (RRF)
+- Cross-Encoder reranking
+- Evidence-grounded answers
+- Page-level citations
+- Local LLM integration using Qwen 2.5
+
+## Technologies Used
+- Python
+- Streamlit
+- Sentence Transformers
+- BM25
+- Cross-Encoder
+- Llama.cpp
+- Qwen 2.5
+
+## Deployment
+The application is deployed using Streamlit Community Cloud.
+
+## Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Project Domain
+Artificial Intelligence in Healthcare — Brain Tumor MRI Research.
